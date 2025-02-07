@@ -9,6 +9,7 @@ import AgentSingle from "./Pages/AgentSingle";
 import Blog from "./Pages/Blog";
 import BlogSingle from "./Pages/BlogSingle";
 import TimeLine from "./Pages/TimeLine";
+import ComingSoon from "./Pages/ComingSoon";
 
 
 
@@ -26,7 +27,8 @@ const App = () => {
       {/* <AgentSingle/> */}
       {/* <Blog/> */}
       {/* <BlogSingle/> */}
-     <TimeLine/>
+     {/* <TimeLine/> */}
+     <ComingSoon/>
     </>
   );
 };
