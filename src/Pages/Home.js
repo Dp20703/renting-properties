@@ -7,10 +7,11 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 
 
+
 const Home = () => {
     return (
         <div>
-            <Silder />
+         <Silder/>
         </div>
     )
 }
@@ -20,8 +21,12 @@ const Silder = () => {
             <section className="w3l-main-slider" id="home">
                 <div className="companies20-content">
                     <div className="companies-wrapper" />
-                    <div style={{ width: "100%", margin: "auto", padding: "", height: "1000px" }}>
-                        <Swiper style={{ height: "50%" }}
+                    <div style={{ width: "100%", margin: "auto", padding: "", height: "150vh" }}>
+                        <Swiper style={{
+                            height: "50%",
+                            '--swiper-navigation-color': '#fff',
+                            '--swiper-pagination-color': '#fff',
+                        }}
                             modules={[Navigation, Pagination, Autoplay]}
                             spaceBetween={20}
                             slidesPerView={1}
