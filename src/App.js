@@ -12,6 +12,7 @@ import TimeLine from "./Pages/TimeLine";
 import ComingSoon from "./Pages/ComingSoon";
 import EcommerceSingle from "./Pages/EcommerceSingle";
 import Faq from "./Pages/Faq";
+import FindProperty from "./Pages/FindProperty";
 
 
 
@@ -32,7 +33,8 @@ const App = () => {
      {/* <TimeLine/> */}
      {/* <ComingSoon/> */}
      {/* <EcommerceSingle/> */}
-     <Faq/>
+     {/* <Faq/> */}
+     <FindProperty/>
     </>
   );
 };
