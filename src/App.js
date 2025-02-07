@@ -1,15 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Common/Header';
-import Home from './Pages/Home';
+import React from "react";
+import Home from "./Pages/Home";
+import Header from "./Common/Header";
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className='App'>
-      <Header/>
-      <Home />
-    </div>
+    <>
+      <Header />
+      <Home/>
+      </>
   );
-}
+};
 
 export default App;
