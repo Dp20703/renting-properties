@@ -13,7 +13,7 @@ import Footer from '../Common/Footer';
 const Home = () => {
     return (
         <div>
-            <Header/>
+            <Header />
             <Silder />
             <InfoBlock />
             <Specification />
@@ -22,7 +22,7 @@ const Home = () => {
             <NewsCompo />
             <SubscribeForm />
             <Testimonials />
-            <Footer/>
+            <Footer />
         </div>
     )
 }
@@ -224,24 +224,24 @@ const InfoBlock = () => {
 const Specification = () => {
     return (
         <>
-            <section class="w3l-specifications-9">
-                <div class="main-w3 py-5" id="stats">
-                    <div class="container text-center py-md-3 mt-4">
-                        <div class="main-cont-wthree-fea row">
-                            <div class="grids-speci1 col-lg-3 col-6">
-                                <h3 class="title-spe">445</h3>
+            <section className="w3l-specifications-9">
+                <div className="main-w3 py-5" id="stats">
+                    <div className="container text-center py-md-3 mt-4">
+                        <div className="main-cont-wthree-fea row">
+                            <div className="grids-speci1 col-lg-3 col-6">
+                                <h3 className="title-spe">445</h3>
                                 <p>PROPERTIES TO RENT</p>
                             </div>
-                            <div class="grids-speci1 midd-eff-spe col-lg-3 col-6">
-                                <h3 class="title-spe">350</h3>
+                            <div className="grids-speci1 midd-eff-spe col-lg-3 col-6">
+                                <h3 className="title-spe">350</h3>
                                 <p>PROPERTIES FOR SALE</p>
                             </div>
-                            <div class="grids-speci1 las-but col-lg-3 col-6  mt-lg-0 mt-4">
-                                <h3 class="title-spe">530</h3>
+                            <div className="grids-speci1 las-but col-lg-3 col-6  mt-lg-0 mt-4">
+                                <h3 className="title-spe">530</h3>
                                 <p>PROPERTIES UNDER OFFER</p>
                             </div>
-                            <div class="grids-speci1 las-t col-lg-3 col-6  mt-lg-0 mt-4">
-                                <h3 class="title-spe">25k </h3>
+                            <div className="grids-speci1 las-t col-lg-3 col-6  mt-lg-0 mt-4">
+                                <h3 className="title-spe">25k </h3>
                                 <p>SQARE. FT</p>
                             </div>
                         </div>
@@ -256,85 +256,85 @@ const Specification = () => {
 const PropertyInfo = () => {
     return (
         <>
-            <section class="grids-4">
-                <div id="grids4-block" class="py-5">
-                    <div class="container py-md-3">
-                        <div class="heading text-center mx-auto">
-                            <h3 class="head">Recently Added Properties</h3>
-                            <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            <section className="grids-4">
+                <div id="grids4-block" className="py-5">
+                    <div className="container py-md-3">
+                        <div className="heading text-center mx-auto">
+                            <h3 className="head">Recently Added Properties</h3>
+                            <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
                                 Nulla mollis dapibus nunc, ut rhoncus
                                 turpis sodales quis. Integer sit amet mattis quam.</p>
                         </div>
-                        <div class="row mt-5 pt-3">
-                            <div class="grids4-info  col-lg-4 col-md-6">
-                                <a href="properties-single.html"><img src="assets/images/g12.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                        <div className="row mt-5 pt-3">
+                            <div className="grids4-info  col-lg-4 col-md-6">
+                                <a href="properties-single.html"><img src="assets/images/g12.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">84 Woodland St. Cocoa</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 4 Beds</li>
-                                        <li><span class="fa fa-bath" /> 3 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 4 Beds</li>
+                                        <li><span className="fa fa-bath" /> 3 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="grids4-info col-lg-4 col-md-6 mt-md-0 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g11.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                            <div className="grids4-info col-lg-4 col-md-6 mt-md-0 mt-4">
+                                <a href="properties-single.html"><img src="assets/images/g11.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">28 Westport Dr. Warminster</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 3 Beds</li>
-                                        <li><span class="fa fa-bath" /> 2 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 3 Beds</li>
+                                        <li><span className="fa fa-bath" /> 2 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g10.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                            <div className="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-4">
+                                <a href="properties-single.html"><img src="assets/images/g10.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">32 Pawnee Street Butte</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 4 Beds</li>
-                                        <li><span class="fa fa-bath" /> 3 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 4 Beds</li>
+                                        <li><span className="fa fa-bath" /> 3 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g9.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
+                                <a href="properties-single.html"><img src="assets/images/g9.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">2 Glen Creek St. Alexandria</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 5 Beds</li>
-                                        <li><span class="fa fa-bath" /> 3 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 5 Beds</li>
+                                        <li><span className="fa fa-bath" /> 3 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g8.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
+                                <a href="properties-single.html"><img src="assets/images/g8.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">798 Talbot St. Bridgewater</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 2 Beds</li>
-                                        <li><span class="fa fa-bath" /> 1 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 2 Beds</li>
+                                        <li><span className="fa fa-bath" /> 1 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g7.jpg" class="img-fluid" alt="" /></a>
-                                <div class="info-bg">
+                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
+                                <a href="properties-single.html"><img src="assets/images/g7.jpg" className="img-fluid" alt="" /></a>
+                                <div className="info-bg">
                                     <h5><a href="properties-single.html">7240C Argyle St. Lawndale</a></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
-                                        <li><span class="fa fa-bed" /> 4 Beds</li>
-                                        <li><span class="fa fa-bath" /> 3 Baths</li>
-                                        <li><span class="fa fa-share-square-o" /> 1200 sq ft</li>
+                                        <li><span className="fa fa-bed" /> 4 Beds</li>
+                                        <li><span className="fa fa-bath" /> 3 Baths</li>
+                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                     </ul>
                                 </div>
                             </div>
@@ -350,25 +350,25 @@ const ContactUs = () => {
     return (
         <>
 
-            <section class="w3l-customers-7">
-                <div class="customers_sur py-5">
-                    <div class="container py-md-3">
+            <section className="w3l-customers-7">
+                <div className="customers_sur py-5">
+                    <div className="container py-md-3">
 
-                        <div class="customers-top_sur row">
-                            <div class="customers-left_sur col-lg-6">
+                        <div className="customers-top_sur row">
+                            <div className="customers-left_sur col-lg-6">
                                 <h6></h6>
                                 <h4>Common Sense Solutions For All Aspects Of Commercial Property, Development Land.</h4>
-                                <a href="contact.html" class="btn btn-secondary btn-theme1 mt-4" > Contact Us</a>
+                                <a href="contact.html" className="btn btn-secondary btn-theme1 mt-4" > Contact Us</a>
                             </div>
-                            <div class="customers-middle_sur col-lg-6 mt-lg-0 mt-4">
-                                <div class="customers_grid">
-                                    <p class="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <div className="customers-middle_sur col-lg-6 mt-lg-0 mt-4">
+                                <div className="customers_grid">
+                                    <p className="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                     <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                    <div class="customers-bottom_sur row">
-                                        <div class="custo-img-res col-3">
-                                            <img src="assets/images/te1.jpg" alt=" " class="img-responsive" />
+                                    <div className="customers-bottom_sur row">
+                                        <div className="custo-img-res col-3">
+                                            <img src="assets/images/te1.jpg" alt=" " className="img-responsive" />
                                         </div>
-                                        <div class="custo_grid col-9">
+                                        <div className="custo_grid col-9">
                                             <h5>Henry Nicholas</h5>
                                             <span>Agent</span>
                                         </div>
@@ -388,37 +388,37 @@ const ContactUs = () => {
 const NewsCompo = () => {
     return (
         <>
-            <section class="w3l-grids-9">
-                <div class="grid-top-9 py-5">
-                    <div class="container py-md-3">
-                        <div class="heading text-center mx-auto">
-                            <h3 class="head">Latest News</h3>
-                            <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            <section className="w3l-grids-9">
+                <div className="grid-top-9 py-5">
+                    <div className="container py-md-3">
+                        <div className="heading text-center mx-auto">
+                            <h3 className="head">Latest News</h3>
+                            <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
                                 Nulla mollis dapibus nunc, ut rhoncus
                                 turpis sodales quis. Integer sit amet mattis quam.</p>
                         </div>
-                        <div class="grid-col-2 grid-element-9 row mt-5 pt-3">
-                            <div class="col-lg-4 col-md-6">
-                                <div class="left-grid-ele-9 grid-bg3">
-                                    <div class="sub-wid-grid-9">
-                                        <p class="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 class="text-grid-9"><a href="blog-single.html">Retail banks wake up to digital lending this year</a></h4>
+                        <div className="grid-col-2 grid-element-9 row mt-5 pt-3">
+                            <div className="col-lg-4 col-md-6">
+                                <div className="left-grid-ele-9 grid-bg3">
+                                    <div className="sub-wid-grid-9">
+                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
+                                        <h4 className="text-grid-9"><a href="blog-single.html">Retail banks wake up to digital lending this year</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
-                                <div class="left-grid-ele-9 grid-bg4">
-                                    <div class="sub-wid-grid-9">
-                                        <p class="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 class="text-grid-9"><a href="blog-single.html">Strategic and commercial approach with issues</a></h4>
+                            <div className="col-lg-4 col-md-6 mt-md-0 mt-4">
+                                <div className="left-grid-ele-9 grid-bg4">
+                                    <div className="sub-wid-grid-9">
+                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
+                                        <h4 className="text-grid-9"><a href="blog-single.html">Strategic and commercial approach with issues</a></h4>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 offset-lg-0 offset-md-3 col-md-6 mt-lg-0 mt-4">
-                                <div class="left-grid-ele-9 grid-bg5">
-                                    <div class="sub-wid-grid-9">
-                                        <p class="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 class="text-grid-9"><a href="blog-single.html">Within the construction industry as their overdraft</a></h4>
+                            <div className="col-lg-4 offset-lg-0 offset-md-3 col-md-6 mt-lg-0 mt-4">
+                                <div className="left-grid-ele-9 grid-bg5">
+                                    <div className="sub-wid-grid-9">
+                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
+                                        <h4 className="text-grid-9"><a href="blog-single.html">Within the construction industry as their overdraft</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -432,18 +432,18 @@ const NewsCompo = () => {
 
 const SubscribeForm = () => {
     return (<>
-        <section class="w3l-forms-9" id="subscribe">
-            <div class="main-w3 py-5">
-                <div class="container py-md-3">
-                    <div class="grids-forms row">
-                        <div class="main-midd col-lg-6">
-                            <h4 class="title-head">Keep up to date — Get e-mail updates</h4>
+        <section className="w3l-forms-9" id="subscribe">
+            <div className="main-w3 py-5">
+                <div className="container py-md-3">
+                    <div className="grids-forms row">
+                        <div className="main-midd col-lg-6">
+                            <h4 className="title-head">Keep up to date — Get e-mail updates</h4>
                             <p>Stay tuned for the latest company news.</p>
                         </div>
-                        <div class="main-midd-2 col-lg-6">
-                            <form action="#" method="post" class="rightside-form">
+                        <div className="main-midd-2 col-lg-6">
+                            <form action="#" method="post" className="rightside-form">
                                 <input type="email" name="email" placeholder="Enter your email" />
-                                <button class="btn" type="submit">Subscribe</button>
+                                <button className="btn" type="submit">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -457,43 +457,43 @@ const Testimonials = () => {
     return (
         <>
 
-            <section class="w3l-customers-8" id="testimonials">
-                <div class="customers_sur py-5">
-                    <div class="container py-md-3">
-                        <div class="heading text-center mx-auto">
-                            <h3 class="head">Happy Clients</h3>
-                            <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            <section className="w3l-customers-8" id="testimonials">
+                <div className="customers_sur py-5">
+                    <div className="container py-md-3">
+                        <div className="heading text-center mx-auto">
+                            <h3 className="head">Happy Clients</h3>
+                            <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                                 Curae;
                                 Nulla mollis dapibus nunc, ut rhoncus
                                 turpis sodales quis. Integer sit amet mattis quam.</p>
                         </div>
-                        <div class="customers-top_sur row mt-5 pt-3">
-                            <div class="customers-left_sur col-md-6">
-                                <div class="customers_grid">
-                                    <ul class="mb-3">
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                        <div className="customers-top_sur row mt-5 pt-3">
+                            <div className="customers-left_sur col-md-6">
+                                <div className="customers_grid">
+                                    <ul className="mb-3">
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
                                     </ul>
-                                    <p class="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
+                                    <p className="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                    <div class="customers-bottom_sur row">
-                                        <div class="custo-img-res col-3">
-                                            <img src="assets/images/te2.jpg" alt=" " class="img-responsive" />
+                                    <div className="customers-bottom_sur row">
+                                        <div className="custo-img-res col-3">
+                                            <img src="assets/images/te2.jpg" alt=" " className="img-responsive" />
                                         </div>
-                                        <div class="custo_grid col-9">
+                                        <div className="custo_grid col-9">
                                             <h5>Shane Watson</h5>
                                             <span>Co-founder</span>
                                         </div>
@@ -501,32 +501,32 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="customers-middle_sur col-md-6 mt-md-0 mt-4">
-                                <div class="customers_grid">
-                                    <ul class="mb-3">
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                            <div className="customers-middle_sur col-md-6 mt-md-0 mt-4">
+                                <div className="customers_grid">
+                                    <ul className="mb-3">
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
-                                        <li class="rated">
-                                            <ispan class="fa fa-star" />
+                                        <li className="rated">
+                                            <ispan className="fa fa-star" />
                                         </li>
                                     </ul>
-                                    <p class="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
+                                    <p className="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                                    <div class="customers-bottom_sur row">
-                                        <div class="custo-img-res col-3">
-                                            <img src="assets/images/te3.jpg" alt=" " class="img-responsive" />
+                                    <div className="customers-bottom_sur row">
+                                        <div className="custo-img-res col-3">
+                                            <img src="assets/images/te3.jpg" alt=" " className="img-responsive" />
                                         </div>
-                                        <div class="custo_grid col-9">
+                                        <div className="custo_grid col-9">
                                             <h5>Henry Nicholas</h5>
                                             <span>Client</span>
                                         </div>

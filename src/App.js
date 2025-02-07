@@ -8,6 +8,7 @@ import Ecommerce from "./Pages/Ecommerce";
 import AgentSingle from "./Pages/AgentSingle";
 import Blog from "./Pages/Blog";
 import BlogSingle from "./Pages/BlogSingle";
+import TimeLine from "./Pages/TimeLine";
 
 
 
@@ -24,8 +25,8 @@ const App = () => {
       {/* <Ecommerce/> */}
       {/* <AgentSingle/> */}
       {/* <Blog/> */}
-      <BlogSingle/>
-     
+      {/* <BlogSingle/> */}
+     <TimeLine/>
     </>
   );
 };

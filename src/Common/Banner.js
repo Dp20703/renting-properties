@@ -3,14 +3,14 @@ import React from 'react'
 const Banner = () => {
     return (
         <div>
-            <section class="w3l-inner-banner-main">
-                <div class="about-inner">
-                    <div class="container">
-                        <ul class="breadcrumbs-custom-path">
+            <section className="w3l-inner-banner-main">
+                <div className="about-inner">
+                    <div className="container">
+                        <ul className="breadcrumbs-custom-path">
                             <h3>About</h3>
-                            <li><a href="index.html"><span class="fa fa-home" aria-hidden="true"></span> <span
-                                class="fa fa-angle-double-right" aria-hidden="true"></span></a></li>
-                            <li class="active">About</li>
+                            <li><a href="index.html"><span className="fa fa-home" aria-hidden="true"></span> <span
+                                className="fa fa-angle-double-right" aria-hidden="true"></span></a></li>
+                            <li className="active">About</li>
                         </ul>
                     </div>
                 </div>
