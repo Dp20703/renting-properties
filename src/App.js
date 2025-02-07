@@ -7,6 +7,7 @@ import NotFound from "./Pages/NotFound";
 import Ecommerce from "./Pages/Ecommerce";
 import AgentSingle from "./Pages/AgentSingle";
 import Blog from "./Pages/Blog";
+import BlogSingle from "./Pages/BlogSingle";
 
 
 
@@ -22,7 +23,8 @@ const App = () => {
       {/* <NotFound/> */}
       {/* <Ecommerce/> */}
       {/* <AgentSingle/> */}
-      <Blog/>
+      {/* <Blog/> */}
+      <BlogSingle/>
      
     </>
   );
