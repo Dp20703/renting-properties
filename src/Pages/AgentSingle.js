@@ -16,7 +16,7 @@ const AgentSingle = () => {
 function Main() {
     return (
         <div>
-            <section className="w3l-teams-17  px-4">
+            <section className="w3l-teams-17 " style={{ padding: '0 140px' }}>
                 <div id="teams17-block" className="py-5">
                     <div className="container py-md-3">
                         <div className="row">
@@ -74,7 +74,7 @@ function Main() {
                         </div>
                     </div>
                 </div>
-    </section >
+            </section >
         </div >
     )
 }
