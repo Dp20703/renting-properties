@@ -1,13 +1,17 @@
 import React from 'react'
 import Banner from '../Common/Banner'
+import Footer from '../Common/Footer'
+import Header from '../Common/Header'
 
 const Services = () => {
   return (
     <>
+    <Header/>
       <Banner />
       <AboutCompo />
       <ServicesCompo />
       <MoreInfo />
+      <Footer/>
     </>
   )
 }

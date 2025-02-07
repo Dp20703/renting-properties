@@ -4,6 +4,8 @@ import "swiper/css"; // Core Swiper styles
 import "swiper/css/navigation"; // Optional: Navigation buttons
 import "swiper/css/pagination"; // Optional: Pagination dots
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Header from '../Common/Header';
+import Footer from '../Common/Footer';
 
 
 
@@ -11,6 +13,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const Home = () => {
     return (
         <div>
+            <Header/>
             <Silder />
             <InfoBlock />
             <Specification />
@@ -19,6 +22,7 @@ const Home = () => {
             <NewsCompo />
             <SubscribeForm />
             <Testimonials />
+            <Footer/>
         </div>
     )
 }
