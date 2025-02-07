@@ -13,6 +13,8 @@ import ComingSoon from "./Pages/ComingSoon";
 import EcommerceSingle from "./Pages/EcommerceSingle";
 import Faq from "./Pages/Faq";
 import FindProperty from "./Pages/FindProperty";
+import Login from "./Pages/Login";
+import SignUP from "./Pages/SignUP";
 
 
 
@@ -34,7 +36,9 @@ const App = () => {
      {/* <ComingSoon/> */}
      {/* <EcommerceSingle/> */}
      {/* <Faq/> */}
-     <FindProperty/>
+     {/* <FindProperty/> */}
+     {/* <Login/> */}
+     <SignUP/>
     </>
   );
 };
