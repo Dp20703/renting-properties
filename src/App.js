@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Header from "./Common/Header";
 import Footer from "./Common/Footer";
+import About from "./Pages/About";
 
 
 
@@ -12,7 +13,8 @@ const App = () => {
     <>
       <Header />
       {/* <Home/> */}
-      <Contact />
+      <About/>
+      {/* <Contact /> */}
       <Footer />
     </>
   );

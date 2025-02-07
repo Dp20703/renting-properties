@@ -18,7 +18,7 @@ const Home = () => {
             <ContactUs />
             <NewsCompo />
             <SubscribeForm />
-            <Testimonials/>
+            <Testimonials />
         </div>
     )
 }
