@@ -4,6 +4,7 @@ import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
 import NotFound from "./Pages/NotFound";
+import Ecommerce from "./Pages/Ecommerce";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <About/> */}
       {/* <Contact /> */}
       {/* <Services/> */}
-      <NotFound/>
+      {/* <NotFound/> */}
+      <Ecommerce/>
      
     </>
   );
