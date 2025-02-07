@@ -15,6 +15,9 @@ import Faq from "./Pages/Faq";
 import FindProperty from "./Pages/FindProperty";
 import Login from "./Pages/Login";
 import SignUP from "./Pages/SignUP";
+import Properties from "./Pages/Properties";
+import PropertiesSingle from "./Pages/PropertiesSingle";
+
 
 
 
@@ -22,7 +25,7 @@ import SignUP from "./Pages/SignUP";
 const App = () => {
   return (
     <>
-    
+
       {/* <Home/> */}
       {/* <About/> */}
       {/* <Contact /> */}
@@ -32,13 +35,15 @@ const App = () => {
       {/* <AgentSingle/> */}
       {/* <Blog/> */}
       {/* <BlogSingle/> */}
-     {/* <TimeLine/> */}
-     {/* <ComingSoon/> */}
-     {/* <EcommerceSingle/> */}
-     {/* <Faq/> */}
-     {/* <FindProperty/> */}
-     {/* <Login/> */}
-     <SignUP/>
+      {/* <TimeLine/> */}
+      {/* <ComingSoon/> */}
+      {/* <EcommerceSingle/> */}
+      {/* <Faq/> */}
+      {/* <FindProperty/> */}
+      {/* <Login/> */}
+      {/* <SignUP/> */}
+      {/* <Properties /> */}
+      <PropertiesSingle />
     </>
   );
 };
