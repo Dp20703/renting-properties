@@ -11,6 +11,7 @@ import BlogSingle from "./Pages/BlogSingle";
 import TimeLine from "./Pages/TimeLine";
 import ComingSoon from "./Pages/ComingSoon";
 import EcommerceSingle from "./Pages/EcommerceSingle";
+import Faq from "./Pages/Faq";
 
 
 
@@ -30,7 +31,8 @@ const App = () => {
       {/* <BlogSingle/> */}
      {/* <TimeLine/> */}
      {/* <ComingSoon/> */}
-     <EcommerceSingle/>
+     {/* <EcommerceSingle/> */}
+     <Faq/>
     </>
   );
 };
