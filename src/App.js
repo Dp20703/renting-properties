@@ -17,6 +17,7 @@ import Login from "./Pages/Login";
 import SignUP from "./Pages/SignUP";
 import Properties from "./Pages/Properties";
 import PropertiesSingle from "./Pages/PropertiesSingle";
+import SearchResults from "./Pages/SearchResults";
 
 
 
@@ -43,7 +44,8 @@ const App = () => {
       {/* <Login/> */}
       {/* <SignUP/> */}
       {/* <Properties /> */}
-      <PropertiesSingle />
+      {/* <PropertiesSingle /> */}
+      <SearchResults/>
     </>
   );
 };
