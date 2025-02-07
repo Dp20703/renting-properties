@@ -4,6 +4,7 @@ import Contact from "./Pages/Contact";
 import Header from "./Common/Header";
 import Footer from "./Common/Footer";
 import About from "./Pages/About";
+import Services from "./Pages/Services";
 
 
 
@@ -13,8 +14,9 @@ const App = () => {
     <>
       <Header />
       {/* <Home/> */}
-      <About/>
+      {/* <About/> */}
       {/* <Contact /> */}
+      <Services/>
       <Footer />
     </>
   );
