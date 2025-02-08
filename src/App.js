@@ -18,6 +18,7 @@ import SignUP from "./Pages/SignUP";
 import Properties from "./Pages/Properties";
 import PropertiesSingle from "./Pages/PropertiesSingle";
 import SearchResults from "./Pages/SearchResults";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 
@@ -26,26 +27,33 @@ import SearchResults from "./Pages/SearchResults";
 const App = () => {
   return (
     <>
-
-      {/* <Home/> */}
-      {/* <About/> */}
-      {/* <Contact /> */}
-      {/* <Services/> */}
-      {/* <NotFound/> */}
-      {/* <Ecommerce/> */}
-      {/* <AgentSingle/> */}
-      {/* <Blog/> */}
-      {/* <BlogSingle/> */}
-      {/* <TimeLine/> */}
-      {/* <ComingSoon/> */}
-      {/* <EcommerceSingle/> */}
-      {/* <Faq/> */}
-      {/* <FindProperty/> */}
-      {/* <Login/> */}
-      {/* <SignUP/> */}
-      {/* <Properties /> */}
-      {/* <PropertiesSingle /> */}
-      <SearchResults/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/singup" element={<SignUP />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/ecommerce" element={<Ecommerce />} />
+          <Route path="/ecommerce-single" element={<EcommerceSingle />} />
+          <Route path="/properties" element={<Properties />} />
+          <Route path="/properties-single" element={<PropertiesSingle />} />
+          <Route path="/find-property" element={<FindProperty />} />
+          <Route path="/search-results" element={<SearchResults />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog-single" element={<BlogSingle />} />
+          <Route path="/agent-single" element={<AgentSingle />} />
+          <Route path="/timeline" element={<TimeLine />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+      {
+      /*      
+      <FindProperty/>
+      <SearchResults/> */}
     </>
   );
 };
