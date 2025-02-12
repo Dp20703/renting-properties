@@ -19,10 +19,6 @@ function Main() {
                     <div className="wrapper">
                         <div className="logo1">
                             <Link className="brand-logo" to="/index"><span>E-</span>Property</Link>
-                            {/* <!-- if logo is image enable this */}
-                            {/* <Link className="brand-logo" to="/#index">
-                                <img src="image-path" alt="Your logo" title="Your logo" style={{height:"35px;"}} />
-                            </Link>  */}
                         </div>
                         <div className="d-grid forms23-grids">
                             <div className="form23">

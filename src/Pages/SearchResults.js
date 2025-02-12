@@ -8,7 +8,7 @@ const SearchResults = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Search Results"} pageName={"search-results"} />
             <Main />
             <Footer />
         </div>

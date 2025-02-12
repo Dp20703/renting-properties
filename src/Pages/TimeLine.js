@@ -7,7 +7,7 @@ const TimeLine = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Our Timeline"} pageName={"timeline"}/>
             <Main />
             <Footer />
         </div>

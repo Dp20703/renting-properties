@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
       <Header />
-      <Banner />
+      <Banner title={"About us"} pageName={"About"} />
       <AboutCompo />
       <Features />
       <Team />

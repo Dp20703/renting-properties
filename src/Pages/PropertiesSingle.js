@@ -7,7 +7,7 @@ const PropertiesSingle = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Property"} pageName={"properties-single"}/>
             <Main />
             <Footer />
         </div>

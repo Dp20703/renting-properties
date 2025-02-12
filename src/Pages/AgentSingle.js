@@ -8,7 +8,7 @@ const AgentSingle = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Our agent "} pageName={"agent-single"} />
             <Main />
             <Footer />
         </div>

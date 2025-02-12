@@ -20,10 +20,6 @@ import PropertiesSingle from "./Pages/PropertiesSingle";
 import SearchResults from "./Pages/SearchResults";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
-
-
-
 const App = () => {
   return (
     <>
@@ -36,8 +32,6 @@ const App = () => {
           <Route path="/singup" element={<SignUP />} />
           <Route path="/login" element={<Login />} />
           <Route path="/ecommerce" element={<Ecommerce />} />
-
-          
           <Route path="/ecommerce-single" element={<EcommerceSingle />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/properties-single" element={<PropertiesSingle />} />

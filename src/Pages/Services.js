@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       <Header />
-      <Banner />
+      <Banner title={"Our Services"} pageName={"Services"}/>
       <AboutCompo />
       <ServicesCompo />
       <MoreInfo />

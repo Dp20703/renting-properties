@@ -8,7 +8,7 @@ const Faq = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Frequently Asked Questions"} pageName={"faq"} />
             <Main />
             <Footer />
         </div>

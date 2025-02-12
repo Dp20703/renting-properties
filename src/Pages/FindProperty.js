@@ -8,7 +8,7 @@ const FindProperty = () => {
     return (
         <div>
             <Header />
-            <Banner />
+            <Banner title={"Find Property"} pageName={"find-property"} />
             <Main />
             <Footer />
         </div>
