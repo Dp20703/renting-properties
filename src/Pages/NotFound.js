@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
@@ -13,7 +14,7 @@ const NotFound = () => {
                                 <p>This page you are looking for might have been removed<br /> had its name changed or temporarly
                                     unavailable.
                                 </p>
-                                <a href="index.html" className="back-button">Back to Home</a>
+                                <Link to="/index" className="back-button">Back to Home</Link>
                             </div>
                             <div className="right-cont col-md-6 mt-md-0 mt-5">
                                 <img src="assets/images/error.png" alt="" className="img-fluid" />

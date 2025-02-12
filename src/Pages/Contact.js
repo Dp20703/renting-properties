@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Common/Header';
 import Footer from '../Common/Footer';
-
+import { Link } from 'react-router-dom';
 
 
 const Contact = () => {
@@ -73,7 +73,7 @@ function ContactForm() {
                         </div>
                         <div className="cont-right">
                             <h6>Phone Us</h6>
-                            <p><a href="tel:+142 5897555">+142 5897555</a></p>
+                            <p><Link to="/tel:+142 5897555">+142 5897555</Link></p>
 
                         </div>
                     </div>
@@ -83,10 +83,10 @@ function ContactForm() {
                         </div>
                         <div className="cont-right">
                             <h6>Email Us</h6>
-                            <p><a
-                                href="https://p.w3layouts.com/cdn-cgi/l/email-protection#204558414d504c450d4d41494c60535550504f52540e434f4d"
+                            <p><Link
+                                to="/https://p.w3layouts.com/cdn-cgi/l/email-protection#204558414d504c450d4d41494c60535550504f52540e434f4d"
                                 className="mail"><span className="__cf_email__"
-                                    data-cfemail="2d48554c405d414800404c44416d5e585d5d425f59034e4240">[email&#160;protected]</span></a>
+                                    data-cfemail="2d48554c405d414800404c44416d5e585d5d425f59034e4240">[email&#160;protected]</span></Link>
                             </p>
                         </div>
                     </div>

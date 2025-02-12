@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
 import Header from '../Common/Header'
+import { Link } from 'react-router-dom';
 
 const AgentSingle = () => {
     return (
@@ -31,20 +32,20 @@ function Main() {
                                         <div className="team-top3">
                                             <div className="cont-right">
                                                 <h6>Phone Number</h6>
-                                                <p><a href="tel:+142 5897555">+142 5897555</a></p>
+                                                <p><Link to="/tel:+142 5897555">+142 5897555</Link></p>
                                             </div>
                                             <div className="cont-right">
                                                 <h6>Email Address</h6>
-                                                <p><a href="https://p.w3layouts.com/cdn-cgi/l/email-protection#b9dad6cbc9d6cbd8cddc94d4d8d0d5f9caccc9c9d6cbcd97dad6d4" className="mail"><span className="__cf_email__" data-cfemail="3e5b464a5b4c57514c13535f57527e4d4b4e4e514c4a105d5153">[email&#160;protected]</span></a></p>
+                                                <p><Link to="/https://p.w3layouts.com/cdn-cgi/l/email-protection#b9dad6cbc9d6cbd8cddc94d4d8d0d5f9caccc9c9d6cbcd97dad6d4" className="mail"><span className="__cf_email__" data-cfemail="3e5b464a5b4c57514c13535f57527e4d4b4e4e514c4a105d5153">[email&#160;protected]</span></Link></p>
                                             </div>
 
                                             <div className="cont-right">
                                                 <h6>Follow me:</h6>
                                                 <ul className="follow">
-                                                    <li><a href="#team"><span className="fa fa-facebook" aria-hidden="true" /></a></li>
-                                                    <li><a href="#team"><span className="fa fa-twitter" aria-hidden="true"></span></a></li>
-                                                    <li><a href="#team"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
-                                                    <li><a href="#team"><span className="fa fa-google-plus" aria-hidden="true"></span></a></li>
+                                                    <li><Link to="/#team"><span className="fa fa-facebook" aria-hidden="true" /></Link></li>
+                                                    <li><Link to="/#team"><span className="fa fa-twitter" aria-hidden="true"></span></Link></li>
+                                                    <li><Link to="/#team"><span className="fa fa-instagram" aria-hidden="true"></span></Link></li>
+                                                    <li><Link to="/#team"><span className="fa fa-google-plus" aria-hidden="true"></span></Link></li>
                                                 </ul>
                                             </div>
                                         </div>

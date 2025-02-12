@@ -6,7 +6,7 @@ import "swiper/css/pagination"; // Optional: Pagination dots
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import Header from '../Common/Header';
 import Footer from '../Common/Footer';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -60,7 +60,7 @@ const Silder = () => {
                                                             <li><span className="fa fa-bath" /> 3</li>
                                                             <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                                         </ul>
-                                                        <a className="btn btn-secondary btn-theme1" href="properties.html"> Check Property</a>
+                                                        <Link className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,7 +82,7 @@ const Silder = () => {
                                                             <li><span className="fa fa-bath" /> 3</li>
                                                             <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                                         </ul>
-                                                        <a className="btn btn-secondary btn-theme1" href="properties.html"> Check Property</a>
+                                                        <Link className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,7 +104,7 @@ const Silder = () => {
                                                             <li><span className="fa fa-bath" /> 3</li>
                                                             <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                                         </ul>
-                                                        <a className="btn btn-secondary btn-theme1" href="properties.html"> Check Property</a>
+                                                        <Link className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -126,7 +126,7 @@ const Silder = () => {
                                                             <li><span className="fa fa-bath" /> 3</li>
                                                             <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
                                                         </ul>
-                                                        <a className="btn btn-secondary btn-theme1" href="properties.html"> Check Property</a>
+                                                        <Link className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,7 +162,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-home icon-siz" />
                                 <h3 className="my-3">Office Agency</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-sm-0 mt-4">
@@ -171,7 +171,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-university icon-siz" />
                                 <h3 className="my-3">Retail Agency</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-lg-0 mt-4">
@@ -180,7 +180,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-hourglass icon-siz" />
                                 <h3 className="my-3">Industrial Agency</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 mt-4">
@@ -189,7 +189,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-futbol-o icon-siz" />
                                 <h3 className="my-3">Property & Asset</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
 
                             </div>
                         </div>
@@ -199,7 +199,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-cubes icon-siz" />
                                 <h3 className="my-3">Building Surviying</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
 
                             </div>
                         </div>
@@ -209,7 +209,7 @@ const InfoBlock = () => {
                                 <span className="fa fa-area-chart icon-siz" />
                                 <h3 className="my-3">Total Investment</h3>
                                 <p className="">Lorem ipsum dolor sit amet, cons ectetur adipisicing elit, sed do i eiusmod tempor incididunt.</p>
-                                <a href="services.html">Read More <span className="fa fa-long-arrow-right" /></a>
+                                <Link to="/services">Read More <span className="fa fa-long-arrow-right" /></Link>
 
                             </div>
                         </div>
@@ -267,9 +267,9 @@ const PropertyInfo = () => {
                         </div>
                         <div className="row mt-5 pt-3">
                             <div className="grids4-info  col-lg-4 col-md-6">
-                                <a href="properties-single.html"><img src="assets/images/g12.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g12.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">84 Woodland St. Cocoa</a></h5>
+                                    <h5><Link to="/properties-single">84 Woodland St. Cocoa</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 4 Beds</li>
@@ -279,9 +279,9 @@ const PropertyInfo = () => {
                                 </div>
                             </div>
                             <div className="grids4-info col-lg-4 col-md-6 mt-md-0 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g11.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g11.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">28 Westport Dr. Warminster</a></h5>
+                                    <h5><Link to="/properties-single">28 Westport Dr. Warminster</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 3 Beds</li>
@@ -291,9 +291,9 @@ const PropertyInfo = () => {
                                 </div>
                             </div>
                             <div className="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g10.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g10.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">32 Pawnee Street Butte</a></h5>
+                                    <h5><Link to="/properties-single">32 Pawnee Street Butte</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 4 Beds</li>
@@ -303,9 +303,9 @@ const PropertyInfo = () => {
                                 </div>
                             </div>
                             <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g9.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g9.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">2 Glen Creek St. Alexandria</a></h5>
+                                    <h5><Link to="/properties-single">2 Glen Creek St. Alexandria</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 5 Beds</li>
@@ -315,9 +315,9 @@ const PropertyInfo = () => {
                                 </div>
                             </div>
                             <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g8.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g8.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">798 Talbot St. Bridgewater</a></h5>
+                                    <h5><Link to="/properties-single">798 Talbot St. Bridgewater</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 2 Beds</li>
@@ -327,9 +327,9 @@ const PropertyInfo = () => {
                                 </div>
                             </div>
                             <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <a href="properties-single.html"><img src="assets/images/g7.jpg" className="img-fluid" alt="" /></a>
+                                <Link to="/properties-single"><img src="assets/images/g7.jpg" className="img-fluid" alt="" /></Link>
                                 <div className="info-bg">
-                                    <h5><a href="properties-single.html">7240C Argyle St. Lawndale</a></h5>
+                                    <h5><Link to="/properties-single">7240C Argyle St. Lawndale</Link></h5>
                                     <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
                                     <ul>
                                         <li><span className="fa fa-bed" /> 4 Beds</li>
@@ -358,7 +358,7 @@ const ContactUs = () => {
                             <div className="customers-left_sur col-lg-6">
                                 <h6></h6>
                                 <h4>Common Sense Solutions For All Aspects Of Commercial Property, Development Land.</h4>
-                                <a href="contact.html" className="btn btn-secondary btn-theme1 mt-4" > Contact Us</a>
+                                <Link to="/contact" className="btn btn-secondary btn-theme1 mt-4" > Contact Us</Link>
                             </div>
                             <div className="customers-middle_sur col-lg-6 mt-lg-0 mt-4">
                                 <div className="customers_grid">
@@ -401,24 +401,24 @@ const NewsCompo = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="left-grid-ele-9 grid-bg3">
                                     <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 className="text-grid-9"><a href="blog-single.html">Retail banks wake up to digital lending this year</a></h4>
+                                        <p className="mb-2"><Link to="/blog-single">December 17, 2019</Link></p>
+                                        <h4 className="text-grid-9"><Link to="/blog-single">Retail banks wake up to digital lending this year</Link></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 mt-md-0 mt-4">
                                 <div className="left-grid-ele-9 grid-bg4">
                                     <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 className="text-grid-9"><a href="blog-single.html">Strategic and commercial approach with issues</a></h4>
+                                        <p className="mb-2"><Link to="/blog-single">December 17, 2019</Link></p>
+                                        <h4 className="text-grid-9"><Link to="/blog-single">Strategic and commercial approach with issues</Link></h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 offset-lg-0 offset-md-3 col-md-6 mt-lg-0 mt-4">
                                 <div className="left-grid-ele-9 grid-bg5">
                                     <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><a href="blog-single.html">December 17, 2019</a></p>
-                                        <h4 className="text-grid-9"><a href="blog-single.html">Within the construction industry as their overdraft</a></h4>
+                                        <p className="mb-2"><Link to="/blog-single">December 17, 2019</Link></p>
+                                        <h4 className="text-grid-9"><Link to="/blog-single">Within the construction industry as their overdraft</Link></h4>
                                     </div>
                                 </div>
                             </div>

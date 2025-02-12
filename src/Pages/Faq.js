@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Common/Header'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
+import { Link } from 'react-router-dom';
 
 const Faq = () => {
     return (
@@ -134,7 +135,7 @@ function Main() {
                                     vel lobortis tellus. consectetur vitae fringilla eu, ornare eu augue. Aliquam in tincidunt dui, nec mattis
                                     velit.
                                     Mauris at mauris erat. </p>
-                                <h4><a href="tel:+142 5897555"><span className="fa fa-phone pr-2"></span> +142 5897555</a></h4>
+                                <h4><Link to="/tel:+142 5897555"><span className="fa fa-phone pr-2"></span> +142 5897555</Link></h4>
 
                             </div>
                         </div>

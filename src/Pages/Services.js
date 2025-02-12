@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
 import Header from '../Common/Header'
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -46,7 +47,7 @@ function AboutCompo() {
                 <h3 className="editContent">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod.</h3>
                 <p className="editContent">Fusce faucibus ante vitae justo efficitur elementum. Donec faucibus arcu elementum, luctus justo. ac purus semper pharetra. Donec faucibus arcu elementum, luctus justo.</p>
                 <p className="more-gap editContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam architecto, ex veritatis tempora aliquid labore natus autem iusto magni dicta incidunt nostrum odit veniam voluptas provident minus saepe reiciendis nulla dolore delectus molestias nam officiis repellat. Sequi corrupti reiciendis nostrum.</p>
-                <a href="about.html" className="theme-button btn">Read More</a>
+                <Link to="/about" className="theme-button btn">Read More</Link>
               </div>
             </div>
           </div>
@@ -72,54 +73,54 @@ function ServicesCompo() {
             <div className="float-lt feature-gd col-lg-4 col-md-6">
               <div className="icon"> <span className="fa fa-file-text-o" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">Flexible, Contemporary & Included Spaces</a></h5>
+                <h5><Link to="/properties">Flexible, Contemporary & Included Spaces</Link></h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
 
             </div>
             <div className="float-mid feature-gd col-lg-4 col-md-6 mt-md-0 mt-5">
               <div className="icon"> <span className="fa fa-laptop" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">Dedicated Production & Planning Teams</a></h5>
+                <h5><Link to="/properties">Dedicated Production & Planning Teams</Link></h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
             </div>
             <div className="float-rt feature-gd col-lg-4 col-md-6 mt-lg-0 mt-5">
               <div className="icon"> <span className="fa fa-clone" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">Premium, Fresh Cuisine Made Onsite</a></h5>
+                <h5><Link to="/properties">Premium, Fresh Cuisine Made Onsite</Link></h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
             </div>
             <div className="float-lt feature-gd col-lg-4 col-md-6 mt-5">
               <div className="icon"> <span className="fa fa-bullseye" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">We’re Here To Make You Successful</a>
+                <h5><Link to="/properties">We’re Here To Make You Successful</Link>
                 </h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
 
             </div>
             <div className="float-mid feature-gd col-lg-4 col-md-6 mt-5">
               <div className="icon"> <span className="fa fa-cube" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">Broker Cutting-Edge And Technology</a>
+                <h5><Link to="/properties">Broker Cutting-Edge And Technology</Link>
                 </h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
             </div>
             <div className="float-rt feature-gd col-lg-4 col-md-6 mt-5">
               <div className="icon"> <span className="fa fa-spinner" aria-hidden="true"></span></div>
               <div className="icon-info">
-                <h5><a href="properties.html">Human-Centered Design Friendly Spaces</a>
+                <h5><Link to="/properties">Human-Centered Design Friendly Spaces</Link>
                 </h5>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt  </p>
-                <a href="properties.html" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></a>
+                <Link to="/properties" className="red mt-3">Read More <span className="fa fa-long-arrow-right"></span></Link>
               </div>
             </div>
           </div>

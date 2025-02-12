@@ -7,7 +7,7 @@ const Header = () => {
       <section className="w3l-bootstrap-header">
         <nav className="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
           <div className="container">
-            <a className="navbar-brand" to="index"><span className="">E-</span>Property</a>
+            <Link className="navbar-brand" to="index"><span className="">E-</span>Property</Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@ const Header = () => {
                   <Link className="nav-link" to="/about">About</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Pages
-                  </a>
+                  </Link>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <Link className="dropdown-item" to="/services">Services</Link>
                     <Link className="dropdown-item" to="/properties">Properties</Link>
@@ -42,20 +42,20 @@ const Header = () => {
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Blog
-                  </a>
+                  </Link>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <Link className="dropdown-item" to="/blog">Blog</Link>
                     <Link className="dropdown-item" to="/blog-single">Blog Single</Link>
                   </div>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Shop
-                  </a>
+                  </Link>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <Link className="dropdown-item" to="/ecommerce">Shop</Link>
                     <Link className="dropdown-item" to="/ecommerce-single">Shop Single</Link>

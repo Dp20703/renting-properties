@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Common/Header'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
+import { Link } from 'react-router-dom';
 
 const EcommerceSingle = () => {
     return (
@@ -65,7 +66,7 @@ function Main() {
                                     </ul>
                                 </div>
                                 <div class="buttons">
-                                    <a href="agent-single.html" class="actionbg">Contact Agent</a>
+                                    <Link to="/agent-single" class="actionbg">Contact Agent</Link>
                                 </div>
                             </div>
                         </div>

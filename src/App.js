@@ -36,6 +36,8 @@ const App = () => {
           <Route path="/singup" element={<SignUP />} />
           <Route path="/login" element={<Login />} />
           <Route path="/ecommerce" element={<Ecommerce />} />
+
+          
           <Route path="/ecommerce-single" element={<EcommerceSingle />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/properties-single" element={<PropertiesSingle />} />
@@ -50,10 +52,6 @@ const App = () => {
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      {
-      /*      
-      <FindProperty/>
-      <SearchResults/> */}
     </>
   );
 };

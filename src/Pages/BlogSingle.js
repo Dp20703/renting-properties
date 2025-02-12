@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Common/Header'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
+import { Link } from 'react-router-dom'
 
 const BlogSingle = () => {
     return (
@@ -23,9 +24,9 @@ function Main() {
 
                             <img src="assets/images/g11.jpg" className="img-responsive margin-top" alt="" />
                             <ul className="bl-single">
-                                <li><a href="#"><span className="fa fa-calendar-o" aria-hidden="true"></span> November 25,2019</a></li>
-                                <li><a href="#"><span className="fa fa-comments-o" aria-hidden="true"></span> 15</a></li>
-                                <li><a href="#"><span className="fa fa-user" aria-hidden="true"></span> Williamson</a></li>
+                                <li><Link to="/#"><span className="fa fa-calendar-o" aria-hidden="true"></span> November 25,2019</Link></li>
+                                <li><Link to="/#"><span className="fa fa-comments-o" aria-hidden="true"></span> 15</Link></li>
+                                <li><Link to="/#"><span className="fa fa-user" aria-hidden="true"></span> Williamson</Link></li>
                             </ul>
                             <h4 className="heading">  Donec ipsum faucibus arcu elementum</h4>
                             <p>Fusce faucibus ante vitae justo efficitur elementum. Donec ipsum faucibus arcu elementum, luctus
@@ -42,19 +43,19 @@ function Main() {
                                         <img className="img-responsive" src="assets/images/te1.jpg" alt="placeholder image" />
 
                                         <div className="media-body comments-grid-right">
-                                            <h4><a href="#">Henry Nicholas</a></h4>
+                                            <h4><Link to="/#">Henry Nicholas</Link></h4>
                                             <ul className="">
                                                 <li className="">15 Oct  2019
                                                 </li>
                                             </ul>
                                             <p>Nullam facilisis diam non magna porta luctus. Aenean facilisis erat posuere erat ornare ultrices. Aliquam ac arcu interdum,Aliquam ac arcu interdum, dapibus nibh convallis, semper augue.</p>
-                                            <a href="#comment" className="replay"><span className="fa fa-reply"></span> Reply</a>
+                                            <Link to="/#comment" className="replay"><span className="fa fa-reply"></span> Reply</Link>
                                         </div>
                                     </div>
                                     <div className="media second-part">
                                         <img className="img-responsive" src="assets/images/te2.jpg" alt="placeholder image" />
                                         <div className="media-body comments-grid-right">
-                                            <h4><a href="#">Shane Jessey</a></h4>
+                                            <h4><Link to="/#">Shane Jessey</Link></h4>
                                             <ul className="">
                                                 <li className="">20 Oct 2019
 
@@ -62,13 +63,13 @@ function Main() {
 
                                             </ul>
                                             <p>Nullam facilisis diam non magna porta luctus. Aenean facilisis erat posuere erat ornare ultrices. Aliquam ac arcu interdum,Aliquam ac arcu interdum, dapibus nibh convallis, semper augue.</p>
-                                            <a href="#comment" className="replay"><span className="fa fa-reply"></span> Reply</a>
+                                            <Link to="/#comment" className="replay"><span className="fa fa-reply"></span> Reply</Link>
                                         </div>
                                     </div>
                                     <div className="media third-part">
                                         <img className="img-responsive" src="assets/images/te3.jpg" alt="placeholder image" />
                                         <div className="media-body comments-grid-right">
-                                            <h4><a href="#">John Cena</a></h4>
+                                            <h4><Link to="/#">John Cena</Link></h4>
                                             <ul className="">
                                                 <li className="">25 Oct 2019
 
@@ -76,7 +77,7 @@ function Main() {
 
                                             </ul>
                                             <p>Nullam facilisis diam non magna porta luctus. Aenean facilisis erat posuere erat ornare ultrices. Aliquam ac arcu interdum,Aliquam ac arcu interdum, dapibus nibh convallis, semper augue.</p>
-                                            <a href="#comment" className="replay"><span className="fa fa-reply"></span> Reply</a>
+                                            <Link to="/#comment" className="replay"><span className="fa fa-reply"></span> Reply</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +97,7 @@ function Main() {
                                         <textarea name="Message" className="form-control" placeholder="Your reply..." required="" />
                                     </div>
                                     <div className="submit text-right">
-                                        <a href="#" className="actionbg">Post comment</a>
+                                        <Link to="/#" className="actionbg">Post comment</Link>
                                     </div>
                                 </form>
                             </div>

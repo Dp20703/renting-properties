@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Banner = () => {
     return (
@@ -8,11 +9,11 @@ const Banner = () => {
                     <div className="container">
                         <ul className="breadcrumbs-custom-path">
                             <h3>About</h3>
-                            <li><a href="index.html"><span className="fa fa-home" aria-hidden="true"></span> <span
-                                className="fa fa-angle-double-right" aria-hidden="true"></span></a></li>
+                            <li><Link to="/index"><span className="fa fa-home" aria-hidden="true"></span> <span
+                                className="fa fa-angle-double-right" aria-hidden="true"></span></Link></li>
                             <li className="active">About</li>
                         </ul>
-                    </div>
+                    </div>  
                 </div>
             </section>
         </div>

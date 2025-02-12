@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Common/Header'
 import Banner from '../Common/Banner'
 import Footer from '../Common/Footer'
+import { Link } from 'react-router-dom';
 
 const FindProperty = () => {
     return (
@@ -23,7 +24,7 @@ function Main() {
                             <div className="form-right-inf">
                                 <div className="form-inner-cont">
                                     <h3>Find your next perfect place</h3>
-                                    <form action="https://p.w3layouts.com/demosWTR/Freedom/12-02-2020/estate_property-freedom-demo_Free/200993729/web/search-results.html" method="post" className="signin-form">
+                                    <form action="https://p.w3layouts.com/demosWTR/Freedom/12-02-2020/estate_property-freedom-demo_Free/200993729/web/search-results" method="post" className="signin-form">
                                         <div className="row book-form">
                                             <div className="form-input col-lg-8 col-md-6">
                                                 <input type="text" name="" placeholder="Enter Your Keywords..." required />

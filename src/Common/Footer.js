@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -9,31 +10,31 @@ const Footer = () => {
                         <div className="container py-lg-3">
                             <div className="row footer-top-28">
                                 <div className="col-lg-6 footer-list-28">
-                                    <h2 className="footer-title-28"><a href="index.html"> Estate Property </a></h2>
+                                    <h2 className="footer-title-28"><Link to='/'> Estate Property </Link></h2>
                                     <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <div className="main-social-footer-28 mt-3">
                                         <ul className="social-icons">
                                             <li className="facebook">
-                                                <a href="#link" title="Facebook">
+                                                <Link to="/#link" title="Facebook">
                                                     <span className="fa fa-facebook" aria-hidden="true"></span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="twitter">
-                                                <a href="#link" title="Twitter">
+                                                <Link to="/#link" title="Twitter">
                                                     <span className="fa fa-twitter" aria-hidden="true"></span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="dribbble">
-                                                <a href="#link" title="Dribbble">
+                                                <Link to="/#link" title="Dribbble">
                                                     <span className="fa fa-dribbble" aria-hidden="true"></span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="google">
-                                                <a href="#link" title="Google">
+                                                <Link to="/#link" title="Google">
                                                     <span className="fa fa-google" aria-hidden="true"></span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -43,11 +44,11 @@ const Footer = () => {
                                         <div className="col-md-4 footer-list-28">
                                             <h6 className="footer-title-28">Important Links</h6>
                                             <ul className="mt-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><Link to="/">Home</Link></li>
+                                                <li><Link to="/about">About</Link></li>
+                                                <li><Link to="/services">Services</Link></li>
+                                                <li><Link to="/blog">Blog</Link></li>
+                                                <li><Link to="/contact">Contact</Link></li>
                                             </ul>
                                         </div>
 
@@ -55,20 +56,20 @@ const Footer = () => {
                                             <h6 className="footer-title-28">Recent Posts</h6>
                                             <div className="fot-top row mt-4">
                                                 <div className="col-4">
-                                                    <a href="blog-single.html">
-                                                        <img src="assets/images/g1.jpg" className="img-responsive" alt="" /></a>
+                                                    <Link to="/blog-single">
+                                                        <img src="assets/images/g1.jpg" className="img-responsive" alt="" /></Link>
                                                 </div>
                                                 <div className="col-8 pl-2">
-                                                    <h5><a href="blog-single.html">We Are Leading International Consultiing Agency</a></h5>
+                                                    <h5><Link to="/blog-single">We Are Leading International Consultiing Agency</Link></h5>
                                                     <p><span className="fa fa-clock-o"></span> December 17, 2019</p>
                                                 </div>
                                             </div>
                                             <div className="fot-top row mt-4">
                                                 <div className="col-4">
-                                                    <a href="blog-single.html"><img src="assets/images/g2.jpg" className="img-responsive" alt="" /></a>
+                                                    <Link to="/blog-single"><img src="assets/images/g2.jpg" className="img-responsive" alt="" /></Link>
                                                 </div>
                                                 <div className="col-8 pl-2">
-                                                    <h5> <a href="blog-single.html">We Are Leading International Consultiing Agency</a></h5>
+                                                    <h5> <Link to="/blog-single">We Are Leading International Consultiing Agency</Link></h5>
                                                     <p> <span className="fa fa-clock-o"></span> December 27, 2019</p>
                                                 </div>
                                             </div>

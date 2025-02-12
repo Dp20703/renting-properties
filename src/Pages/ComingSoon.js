@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ComingSoon = () => {
   return (
@@ -45,7 +46,7 @@ function Main() {
               </div>
               <div className="buy-tick">
 
-                <a href="index.html" className="back-button">Back to Home</a>
+                <Link to="/index" className="back-button">Back to Home</Link>
               </div>
             </div>
           </div>
