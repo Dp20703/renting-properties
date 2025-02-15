@@ -10,9 +10,12 @@ import { Link } from 'react-router-dom';
 
 
 
+
+
 const Home = () => {
     return (
         <div>
+        
             <Header />
             <Silder />
             <InfoBlock />
@@ -26,6 +29,10 @@ const Home = () => {
         </div>
     )
 }
+
+
+
+
 const Silder = () => {
     return (
         <>
