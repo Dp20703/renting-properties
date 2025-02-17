@@ -15,9 +15,9 @@ function Main() {
                 <div id="forms23-block">
                     <div className="wrapper">
                         <div className="logo1">
-                            <Link className="brand-logo" to="/index"><span>E-</span>Property</Link>
+                            <Link id="link" className="brand-logo" to="/index"><span>E-</span>Property</Link>
                             {/* <!-- if logo is image enable this   
-                        <Link className="brand-logo" to="/#index">
+                        <Link id="link" className="brand-logo" to="/#index">
                             <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
                         </Link> --> */}
                         </div>
@@ -34,7 +34,7 @@ function Main() {
 
                                     <button type="submit">Sign Up</button>
                                 </form>
-                                <p>Are you a member? <Link to="/login">Login now</Link></p>
+                                <p>Are you a member? <Link id="link" to="/login">Login now</Link></p>
 
                             </div>
                             <div className="frm-tp">
@@ -42,25 +42,25 @@ function Main() {
                                 <div className="form23-text">
                                     <h6>Connect with</h6>
                                     <div className="form23-text-top">
-                                        <Link to="/#facebook">
+                                        <Link id="link" to="/#facebook">
                                             <div className="signin facebook">
                                                 <span className="fa fa-facebook" aria-hidden="true"></span>
                                                 <p className="action">Facebook</p>
                                             </div>
                                         </Link>
-                                        <Link to="/#google-plus">
+                                        <Link id="link" to="/#google-plus">
                                             <div className="signin google-plus">
                                                 <span className="fa fa-google-plus" aria-hidden="true"></span>
                                                 <p className="action">Google</p>
                                             </div>
                                         </Link>
-                                        <Link to="/#twitter">
+                                        <Link id="link" to="/#twitter">
                                             <div className="signin twitter">
                                                 <span className="fa fa-twitter" aria-hidden="true"></span>
                                                 <p className="action">Twitter</p>
                                             </div>
                                         </Link>
-                                        <Link to="/#linkedin">
+                                        <Link id="link" to="/#linkedin">
                                             <div className="signin linkedin">
                                                 <span className="fa fa-linkedin" aria-hidden="true"></span>
                                                 <p className="action">Linkedin</p>

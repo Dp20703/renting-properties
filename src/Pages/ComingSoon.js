@@ -46,7 +46,7 @@ function Main() {
               </div>
               <div className="buy-tick">
 
-                <Link to="/index" className="back-button">Back to Home</Link>
+                <Link id="link" to="/index" className="back-button">Back to Home</Link>
               </div>
             </div>
           </div>

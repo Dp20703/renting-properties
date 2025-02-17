@@ -135,7 +135,7 @@ function Main() {
                                     vel lobortis tellus. consectetur vitae fringilla eu, ornare eu augue. Aliquam in tincidunt dui, nec mattis
                                     velit.
                                     Mauris at mauris erat. </p>
-                                <h4><Link to="/tel:+142 5897555"><span className="fa fa-phone pr-2"></span> +142 5897555</Link></h4>
+                                <h4><Link id="link" to="/tel:+142 5897555"><span className="fa fa-phone pr-2"></span> +142 5897555</Link></h4>
 
                             </div>
                         </div>
