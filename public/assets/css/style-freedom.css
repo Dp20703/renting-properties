@@ -15109,7 +15109,8 @@ small.text-3 {
       margin-bottom: 10px; }
     .w3l-forms-23 .form23-text-top {
       grid-template-columns: 1fr;
-      grid-gap: 10px; } }
+      grid-gap: 10px; 
+    } }
 
 .bg_dark-light {
   background: #f8fbff; }

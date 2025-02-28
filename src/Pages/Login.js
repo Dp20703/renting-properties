@@ -18,7 +18,7 @@ function Main() {
 
                     <div className="wrapper">
                         <div className="logo1">
-                            <Link id="link" className="brand-logo" to="/index"><span>E-</span>Property</Link>
+                            <Link id="link" className="brand-logo" to="/"><span>Renting </span>Properties</Link>
                         </div>
                         <div className="d-grid forms23-grids">
                             <div className="form23">
