@@ -6,7 +6,7 @@ const Header = () => {
     <section className="w3l-bootstrap-header">
       <nav className="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
         <div className="container">
-          <Link id="link" className="navbar-brand" to="/"><span>E-</span>Property</Link>
+          <Link id="link" className="navbar-brand" to="/"><span>Renting </span>Properties</Link>
 
           <button
             className="navbar-toggler"
@@ -45,7 +45,6 @@ const Header = () => {
 
                   <li><Link id="link" className="dropdown-item" to="/properties">Properties</Link></li>
                   <li><Link id="link" className="dropdown-item" to="/properties-single">Properties Single</Link></li>
-                  <li><Link id="link" className="dropdown-item" to="/agent-single">Agent Single</Link></li>
                   <li><Link id="link" className="dropdown-item" to="/login">Login</Link></li>
                   <li><Link id="link" className="dropdown-item" to="/signup">Sign Up</Link></li>
                   <li><Link id="link" className="dropdown-item" to="/faq">FAQ</Link></li>

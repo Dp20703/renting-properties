@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="container py-lg-3">
                             <div className="row footer-top-28">
                                 <div className="col-lg-6 footer-list-28">
-                                    <h2 className="footer-title-28"><Link id="link" to='/'> Estate Property </Link></h2>
+                                    <h2 className="footer-title-28"><Link id="link" to='/'> Renting Properties </Link></h2>
                                     <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 mt-lg-0 mt-4">
+                                <div className=" col-lg-6 mt-lg-0 mt-4">
                                     <div className="row">
                                         <div className="col-md-4 footer-list-28">
                                             <h6 className="footer-title-28">Important Links</h6>
@@ -47,33 +47,8 @@ const Footer = () => {
                                                 <li><Link id="link" to="/">Home</Link></li>
                                                 <li><Link id="link" to="/about">About</Link></li>
                                                 <li><Link id="link" to="/services">Services</Link></li>
-                                                <li><Link id="link" to="/blog">Blog</Link></li>
                                                 <li><Link id="link" to="/contact">Contact</Link></li>
                                             </ul>
-                                        </div>
-
-                                        <div className="col-md-8 footer-list-28 mt-md-0 mt-4">
-                                            <h6 className="footer-title-28">Recent Posts</h6>
-                                            <div className="fot-top row mt-4">
-                                                <div className="col-4">
-                                                    <Link id="link" to="/blog-single">
-                                                        <img src="assets/images/g1.jpg" className="img-responsive" alt="" /></Link>
-                                                </div>
-                                                <div className="col-8 pl-2">
-                                                    <h5><Link id="link" to="/blog-single">We Are Leading International Consultiing Agency</Link></h5>
-                                                    <p><span className="fa fa-clock-o"></span> December 17, 2019</p>
-                                                </div>
-                                            </div>
-                                            <div className="fot-top row mt-4">
-                                                <div className="col-4">
-                                                    <Link id="link" to="/blog-single"><img src="assets/images/g2.jpg" className="img-responsive" alt="" /></Link>
-                                                </div>
-                                                <div className="col-8 pl-2">
-                                                    <h5> <Link id="link" to="/blog-single">We Are Leading International Consultiing Agency</Link></h5>
-                                                    <p> <span className="fa fa-clock-o"></span> December 27, 2019</p>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
