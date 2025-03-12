@@ -14,6 +14,8 @@ import Properties from "./Pages/Properties";
 import PropertiesSingle from "./Pages/PropertiesSingle";
 import SearchResults from "./Pages/SearchResults";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Profile from "./Pages/Profile";
+import OwnerProfile from "./Pages/OwnerProfile";
 
 const App = () => {
   return (
@@ -33,6 +35,8 @@ const App = () => {
           <Route path="/find-property" element={<FindProperty />} />
           <Route path="/search-results" element={<SearchResults />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/ownerprofile" element={<OwnerProfile />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
