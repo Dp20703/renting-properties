@@ -7,7 +7,7 @@ const PropertiesSingle = () => {
     return (
         <div>
             <Header />
-            <Banner title={"Property"} pageName={"properties-single"}/>
+            <Banner title={"Property"} pageName={"properties-single"} />
             <Main />
             <Footer />
         </div>
@@ -30,9 +30,9 @@ function Main() {
                                         <input type="radio" name="controls" id="c3" /><img className="galleryImage  img-responsive" id="i3" src="assets/images/g5.jpg" alt="" />
                                     </div>
                                     <div className="thumbnails">
-                                        <label className="thumbnailImage" for="c1"><img src="assets/images/g3.jpg" className="img-responsive" alt="" /></label>
-                                        <label className="thumbnailImage" for="c2"><img src="assets/images/g4.jpg" className="img-responsive" alt="" /></label>
-                                        <label className="thumbnailImage" for="c3"><img src="assets/images/g5.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c1"><img src="assets/images/g3.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c2"><img src="assets/images/g4.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c3"><img src="assets/images/g5.jpg" className="img-responsive" alt="" /></label>
 
                                     </div>
                                 </div>

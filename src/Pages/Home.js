@@ -22,8 +22,6 @@ const Home = () => {
             <Specification />
             <PropertyInfo />
             <ContactUs />
-            <NewsCompo />
-            <SubscribeForm />
             <Testimonials />
             <Footer />
         </div>
@@ -383,74 +381,6 @@ const ContactUs = () => {
     );
 }
 
-const NewsCompo = () => {
-    return (
-        <>
-            <section className="w3l-grids-9">
-                <div className="grid-top-9 py-5">
-                    <div className="container py-md-3">
-                        <div className="heading text-center mx-auto">
-                            <h3 className="head">Latest News</h3>
-                            <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                                Nulla mollis dapibus nunc, ut rhoncus
-                                turpis sodales quis. Integer sit amet mattis quam.</p>
-                        </div>
-                        <div className="grid-col-2 grid-element-9 row mt-5 pt-3">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="left-grid-ele-9 grid-bg3">
-                                    <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><Link id="link" to="/blog-single">December 17, 2019</Link></p>
-                                        <h4 className="text-grid-9"><Link id="link" to="/blog-single">Retail banks wake up to digital lending this year</Link></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 mt-md-0 mt-4">
-                                <div className="left-grid-ele-9 grid-bg4">
-                                    <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><Link id="link" to="/blog-single">December 17, 2019</Link></p>
-                                        <h4 className="text-grid-9"><Link id="link" to="/blog-single">Strategic and commercial approach with issues</Link></h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 offset-lg-0 offset-md-3 col-md-6 mt-lg-0 mt-4">
-                                <div className="left-grid-ele-9 grid-bg5">
-                                    <div className="sub-wid-grid-9">
-                                        <p className="mb-2"><Link id="link" to="/blog-single">December 17, 2019</Link></p>
-                                        <h4 className="text-grid-9"><Link id="link" to="/blog-single">Within the construction industry as their overdraft</Link></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    );
-}
-
-const SubscribeForm = () => {
-    return (<>
-        <section className="w3l-forms-9" id="subscribe">
-            <div className="main-w3 py-5">
-                <div className="container py-md-3">
-                    <div className="grids-forms row">
-                        <div className="main-midd col-lg-6">
-                            <h4 className="title-head">Keep up to date — Get e-mail updates</h4>
-                            <p>Stay tuned for the latest company news.</p>
-                        </div>
-                        <div className="main-midd-2 col-lg-6">
-                            <form action="#" method="post" className="rightside-form">
-                                <input type="email" name="email" placeholder="Enter your email" />
-                                <button className="btn" type="submit">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </>);
-}
-
 const Testimonials = () => {
     return (
         <>
@@ -470,19 +400,19 @@ const Testimonials = () => {
                                 <div className="customers_grid">
                                     <ul className="mb-3">
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                     </ul>
                                     <p className="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor
@@ -493,7 +423,7 @@ const Testimonials = () => {
                                         </div>
                                         <div className="custo_grid col-9">
                                             <h5>Shane Watson</h5>
-                                            <span>Co-founder</span>
+                                            <span>Landlord</span>
                                         </div>
 
                                     </div>
@@ -503,19 +433,19 @@ const Testimonials = () => {
                                 <div className="customers_grid">
                                     <ul className="mb-3">
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                         <li className="rated">
-                                            <ispan className="fa fa-star" />
+                                            <span className="fa fa-star" />
                                         </li>
                                     </ul>
                                     <p className="sub-test">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor

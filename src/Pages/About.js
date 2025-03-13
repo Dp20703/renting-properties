@@ -11,7 +11,6 @@ const About = () => {
       <Banner title={"About us"} pageName={"About"} />
       <AboutCompo />
       <Features />
-      <Team />
       <Footer />
     </div>
   )
@@ -92,123 +91,6 @@ function Features() {
   );
 
 }
-function Team() {
-  return (
-    <>
-      <section className="w3l-team-61" id="team">
-        <div className="team-61_sur py-5">
-          <div className="container py-md-3">
-            <div className="team-61_sur-wrap">
-              <div className="grid grid-column-2">
-                <div className="heading text-center mx-auto">
-                  <h3 className="head">Our Agents</h3>
-                  <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                    Curae;
-                    Nulla mollis dapibus nunc, ut rhoncus
-                    turpis sodales quis. Integer sit amet mattis quam.</p>
-                </div>
 
-                <div className="team-right-content row mt-5 pt-3">
-                  <div className="teams-gd col-lg-3 col-sm-6">
-                    <div className="team-member">
-                      <div className="team-img">
-                        <Link id="link" to="/agent-single"><img className="img-fluid" src="assets/images/t4.jpg" alt="" /></Link>
-                      </div>
-                      <div className="team-hover">
-                        <div className="desk">
-                          <h4><Link id="link" to="/agent-single">Meet Me</Link></h4>
-                          <p>Lorem ipsum dolor sit amet,Ea consequuntur </p>
-                        </div>
-                        <div className="s-link">
-                          <Link id="link" to="/#"><span className="fa fa-facebook"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-twitter"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-google-plus"></span></Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-title">
-                      <h5><Link id="link" to="/agent-single">Martin Smith</Link></h5>
-                      <span>founder &amp; ceo</span>
-                    </div>
-                  </div>
-                  <div className="teams-gd col-lg-3 col-sm-6 mt-sm-0 mt-4">
-                    <div className="team-member">
-                      <div className="team-img">
-                        <Link id="link" to="/agent-single">
-                          <img className="img-fluid" src="assets/images/t2.jpg" alt="" /></Link>
-                      </div>
-                      <div className="team-hover">
-                        <div className="desk">
-                          <h4><Link id="link" to="/agent-single">Meet Me</Link></h4>
-                          <p>Lorem ipsum dolor sit amet,Ea consequuntur </p>
-                        </div>
-                        <div className="s-link">
-                          <Link id="link" to="/#"><span className="fa fa-facebook"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-twitter"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-google-plus"></span></Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-title">
-                      <h5><Link id="link" to="/agent-single">Franklin Harbet</Link></h5>
-
-                      <span>founder &amp; ceo</span>
-                    </div>
-                  </div>
-                  <div className="teams-gd col-lg-3 col-sm-6 mt-lg-0 mt-4">
-                    <div className="team-member">
-                      <div className="team-img">
-                        <Link id="link" to="/agent-single"><img className="img-fluid" src="assets/images/t3.jpg" alt="" /></Link>
-                      </div>
-                      <div className="team-hover">
-                        <div className="desk">
-                          <h4><Link id="link" to="/agent-single">Meet Me</Link></h4>
-                          <p>Lorem ipsum dolor sit amet,Ea consequuntur </p>
-                        </div>
-                        <div className="s-link">
-                          <Link id="link" to="/#"><span className="fa fa-facebook"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-twitter"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-google-plus"></span></Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-title">
-                      <h5><Link id="link" to="/agent-single">Franklin Harbet</Link></h5>
-                      <span>founder &amp; ceo</span>
-                    </div>
-                  </div>
-                  <div className="teams-gd col-lg-3 col-sm-6 mt-lg-0 mt-4">
-                    <div className="team-member">
-                      <div className="team-img">
-                        <Link id="link" to="/agent-single"><img className="img-fluid" src="assets/images/t1.jpg" alt="" /></Link>
-                      </div>
-                      <div className="team-hover">
-                        <div className="desk">
-                          <h4><Link id="link" to="/agent-single">Meet Me</Link></h4>
-                          <p>Lorem ipsum dolor sit amet,Ea consequuntur </p>
-                        </div>
-                        <div className="s-link">
-                          <Link id="link" to="/#"><span className="fa fa-facebook"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-twitter"></span></Link>
-                          <Link id="link" to="/#"><span className="fa fa-google-plus"></span></Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="team-title">
-                      <h5><Link id="link" to="/agent-single">Linda Anderson</Link></h5>
-
-                      <span>founder &amp; ceo</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-
-}
 
 export default About

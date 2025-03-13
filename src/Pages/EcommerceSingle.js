@@ -32,10 +32,10 @@ function Main() {
 
                                     </div>
                                     <div class="thumbnails">
-                                        <label class="thumbnailImage" for="c1"><img src="assets/images/g4.jpg" class="img-responsive" alt="" /></label>
-                                        <label class="thumbnailImage" for="c2"><img src="assets/images/g5.jpg" class="img-responsive" alt="" /></label>
-                                        <label class="thumbnailImage" for="c3"><img src="assets/images/g6.jpg" class="img-responsive" alt="" /></label>
-                                        <label class="thumbnailImage" for="c4"><img src="assets/images/g7.jpg" class="img-responsive" alt="" /></label>
+                                        <label class="thumbnailImage" htmlFor="c1"><img src="assets/images/g4.jpg" class="img-responsive" alt="" /></label>
+                                        <label class="thumbnailImage" htmlFor="c2"><img src="assets/images/g5.jpg" class="img-responsive" alt="" /></label>
+                                        <label class="thumbnailImage" htmlFor="c3"><img src="assets/images/g6.jpg" class="img-responsive" alt="" /></label>
+                                        <label class="thumbnailImage" htmlFor="c4"><img src="assets/images/g7.jpg" class="img-responsive" alt="" /></label>
 
                                     </div>
                                 </div>
