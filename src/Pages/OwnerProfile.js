@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
     return (
@@ -10,7 +11,7 @@ const Profile = () => {
             <Main />
             <Footer />
         </>
-    )
+    );
 };
 
 function Main() {
@@ -61,6 +62,8 @@ function Main() {
         },
     ]);
 
+    const navigate = useNavigate();
+
     // Handle profile input change
     const handleProfileChange = (e) => {
         setUser({ ...user, [e.target.name]: e.target.value });
@@ -83,6 +86,20 @@ function Main() {
     // Handle property save
     const handlePropertySave = (id) => {
         setIsEditingProperty(null);
+    };
+
+    // Handle property delete
+    const handleDeleteProperty = (id) => {
+        if (window.confirm("Are you sure you want to delete this property?")) {
+            const updatedProperties = properties.filter(property => property.id !== id);
+            setProperties(updatedProperties);
+        }
+    };
+
+    // Handle Logout
+    const handleLogout = () => {
+        alert("You have been logged out!");
+        navigate("/login"); // Redirect to login page
     };
 
     return (
@@ -136,9 +153,15 @@ function Main() {
                         <h3 className="card-title">{user.name}</h3>
                         <p className="text-muted">{user.email} | {user.phone}</p>
                         <p className="card-text">{user.bio}</p>
-                        <button className="btn btn-primary mb-4" onClick={() => setIsEditingProfile(true)}>
-                            Edit Profile
-                        </button>
+                        <div className="d-flex justify-content-center align-items-center">
+                            <button className="btn btn-primary mb-4" onClick={() => setIsEditingProfile(true)}>
+                                Edit Profile
+                            </button>
+                            {/* Logout Button */}
+                            <button className="btn btn-danger mb-4 ms-2" onClick={handleLogout}>
+                                Logout
+                            </button>
+                        </div>
                     </>
                 )}
 
@@ -168,30 +191,6 @@ function Main() {
                                                 className="form-control mb-2"
                                                 required
                                             />
-                                            <input
-                                                type="text"
-                                                name="location"
-                                                value={property.location}
-                                                onChange={(e) => handlePropertyChange(property.id, e)}
-                                                className="form-control mb-2"
-                                                required
-                                            />
-                                            <input
-                                                type="number"
-                                                name="bedrooms"
-                                                value={property.bedrooms}
-                                                onChange={(e) => handlePropertyChange(property.id, e)}
-                                                className="form-control mb-2"
-                                                required
-                                            />
-                                            <input
-                                                type="number"
-                                                name="bathrooms"
-                                                value={property.bathrooms}
-                                                onChange={(e) => handlePropertyChange(property.id, e)}
-                                                className="form-control mb-2"
-                                                required
-                                            />
                                             <textarea
                                                 name="description"
                                                 value={property.description}
@@ -214,8 +213,11 @@ function Main() {
                                             <p><strong>Rent:</strong> {property.rent}</p>
                                             <p><strong>Bedrooms:</strong> {property.bedrooms} | <strong>Bathrooms:</strong> {property.bathrooms}</p>
                                             <p className="card-text">{property.description}</p>
-                                            <button className="btn btn-primary" onClick={() => setIsEditingProperty(property.id)}>
-                                                Edit Property
+                                            <button className="btn btn-primary me-2" onClick={() => setIsEditingProperty(property.id)}>
+                                                Edit
+                                            </button>
+                                            <button className="btn btn-danger" onClick={() => handleDeleteProperty(property.id)}>
+                                                Delete
                                             </button>
                                         </>
                                     )}

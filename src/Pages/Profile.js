@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
+import {useNavigate } from "react-router-dom";
 
 const Profile = () => {
     return (
@@ -21,6 +22,8 @@ function Main() {
         profilePic: "https://th.bing.com/th/id/OIP.jryuUgIHWL-1FVD2ww8oWgHaHa?rs=1&pid=ImgDetMain",
     });
 
+    //navigate to login page:
+    const navigate = useNavigate();
     // Handle form input changes
     const handleChange = (e) => {
         setUser({ ...user, [e.target.name]: e.target.value });
@@ -34,11 +37,11 @@ function Main() {
     // Logout Function
     const handleLogout = () => {
         alert("You have been logged out!");
-        window.location.href = "/login"; // Redirect to login page (Change as needed)
+        navigate("/login"); // Redirect to login page (Change as needed)
     };
 
     return (
-        <div className="container mt-5" style={{marginBottom:"180px",padding:'100px'}}>
+        <div className="container mt-5" style={{ marginBottom: "180px", padding: '100px' }}>
             <div className="card mx-auto shadow p-4 text-center" style={{ maxWidth: "400px" }}>
                 <img
                     src={user.profilePic}
@@ -90,14 +93,14 @@ function Main() {
                         <h4 className="card-title">{user.name}</h4>
                         <p className="card-text text-muted">{user.email}</p>
                         <p className="card-text">{user.bio}</p>
-                       <div className=" d-flex justify-content-center text-center align-items-center">
-                       <button className="btn btn-primary me-2 " onClick={() => setIsEditing(true)}>
-                            Edit Profile
-                        </button>
-                        <button className="btn btn-danger" onClick={handleLogout}>
-                            Logout
-                        </button>
-                       </div>
+                        <div className=" d-flex justify-content-center text-center align-items-center">
+                            <button className="btn btn-primary me-2 " onClick={() => setIsEditing(true)}>
+                                Edit Profile
+                            </button>
+                            <button className="btn btn-danger" onClick={handleLogout}>
+                                Logout
+                            </button>
+                        </div>
                     </>
                 )}
             </div>
