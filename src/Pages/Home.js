@@ -53,7 +53,7 @@ const Slider = () => {
                         <SwiperSlide>
                             <div className="item">
                                 <li>
-                                    <div className="slider-info banner-view bg bg2">
+                                    <div className="slider-info banner-view banner-top0 bg bg2">
                                         <div className="banner-info">
                                             <div className="container">
                                                 <div className="banner-info-bg">
@@ -75,7 +75,7 @@ const Slider = () => {
                         <SwiperSlide>
                             <div className="item">
                                 <li>
-                                    <div className="slider-info banner-view banner-top1 bg bg2">
+                                    <div className="slider-info banner-view banner-top1  bg bg2">
                                         <div className="banner-info">
                                             <div className="container">
                                                 <div className="banner-info-bg">
@@ -86,7 +86,7 @@ const Slider = () => {
                                                         <li><span className="fa fa-bath" /> 3</li>
                                                         <li><span className="fa fa-share-square-o" /> 2000 sq ft</li>
                                                     </ul>
-                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties">View Property</Link>
                                                 </div>
                                             </div>
                                         </div>

@@ -25,14 +25,12 @@ function Main() {
                             <div className="column contentwithphoto-img">
                                 <div className="galleryContainer">
                                     <div className="gallery">
-                                        <input type="radio" name="controls" id="c1" checked /><img className="galleryImage img-responsive" id="i1" src="assets/images/g3.jpg" alt="" />
-                                        <input type="radio" name="controls" id="c2" /><img className="galleryImage  img-responsive" id="i2" src="assets/images/g4.jpg" alt="" />
-                                        <input type="radio" name="controls" id="c3" /><img className="galleryImage  img-responsive" id="i3" src="assets/images/g5.jpg" alt="" />
+                                    <label className="thumbnailImage" htmlFor="c1"><img src="assets/images/bandra1.jpg" className="img-responsive" alt="" /></label>
                                     </div>
                                     <div className="thumbnails">
-                                        <label className="thumbnailImage" htmlFor="c1"><img src="assets/images/s2.jpg" className="img-responsive" alt="" /></label>
-                                        <label className="thumbnailImage" htmlFor="c2"><img src="assets/images/s3.jpg" className="img-responsive" alt="" /></label>
-                                        <label className="thumbnailImage" htmlFor="c3"><img src="assets/images/s4.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c1"><img src="assets/images/bandra2.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c2"><img src="assets/images/bandra3.jpg" className="img-responsive" alt="" /></label>
+                                        <label className="thumbnailImage" htmlFor="c3"><img src="assets/images/bandra4.jpg" className="img-responsive" alt="" /></label>
 
                                     </div>
                                 </div>
@@ -40,17 +38,16 @@ function Main() {
                             <div className="contentwithphoto-top">
                                 <div className="column contentwithphoto-text mt-4">
                                     <h3>Description</h3>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.</p>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.</p>
-
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                                    <p>This stunning property located in the heart of Bandra, Mumbai, offers a luxurious living experience with its spacious 2100 sqft area. The property features 8 rooms, including 5 bedrooms and 2 bathrooms, providing ample space for a large family. The modern design and high-quality finishes make this property a perfect blend of comfort and style.</p>
+                                    <p>The property boasts a range of amenities, including air conditioning, a balcony, a front yard, and a pool, ensuring a comfortable and enjoyable living experience. The garage provides secure parking for your vehicle, and the property is equipped with broadband for high-speed internet access.</p>
+                                    <p>Built in 2019, this property is relatively new and offers all the modern conveniences you would expect from a high-end home. The spacious attic and dining space add to the charm of this beautiful property, making it an ideal choice for those looking for a luxurious and comfortable living space in Mumbai.</p>
                                 </div>
 
                             </div>
                         </div>
                         <div className="work">
                             <h3>Challenge & Solutions</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.</p>
+                            <p>One of the main challenges of living in a bustling city like Mumbai is finding a property that offers both space and modern amenities. This property addresses these challenges by providing a spacious living area with all the modern conveniences you need for a comfortable lifestyle. The strategic location in Bandra ensures easy access to all the essential services and entertainment options, making it an ideal choice for urban living.</p>
                         </div>
                         <div className="column con-bottom row mt-5">
 
