@@ -11,9 +11,7 @@ const Footer = () => {
                             <div className="row footer-top-28">
                                 <div className="col-lg-6 footer-list-28">
                                     <h2 className="footer-title-28"><Link id="link" to='/'> Renting Properties </Link></h2>
-                                    <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p className="mt-4">Discover your perfect rental property with us. We offer a wide range of properties to suit all needs and budgets. Our dedicated team is here to help you find your next home with ease and confidence.</p>
                                     <div className="main-social-footer-28 mt-3">
                                         <ul className="social-icons">
                                             <li className="facebook">
