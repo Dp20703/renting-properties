@@ -20,6 +20,7 @@ import ManagePayments from "./Pages/ManagePayments";
 import ManageBooking from "./Pages/ManageBooking";
 import ManageRequest from "./Pages/ManageRequest";
 import UploadProperty from "./Pages/UploadProperty";
+import MyBookings from "./Pages/MyBookings";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="/properties-single" element={<PropertiesSingle />} />
           <Route path="/find-property" element={<FindProperty />} />
           <Route path="/search-results" element={<SearchResults />} />
+          <Route path="/my_bookings" element={<MyBookings />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/owner_profile" element={<OwnerProfile />} />
