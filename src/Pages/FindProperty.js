@@ -47,6 +47,7 @@ function Main() {
                                                     <option value="Chennai">Chennai</option>
                                                     <option value="Kolkata">Kolkata</option>
                                                     <option value="Jaipur">Jaipur</option>
+                                                    <option value="Pune">Pune</option>
                                                 </select>
                                             </div>
                                             <div className="form-input col-md-4 mt-3">

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap is imported
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 
@@ -112,9 +111,7 @@ function Main() {
               <label>Property Type:</label>
               <select name="propertyType" required onChange={handleChange} className="form-control">
                 <option value="">Select Type</option>
-                <option value="Apartment">Apartment</option>
-                <option value="Villa">Villa</option>
-                <option value="Independent House">Independent House</option>
+                <option value="Residential ">residential</option>
                 <option value="Commercial">Commercial Property</option>
               </select>
             </div>
