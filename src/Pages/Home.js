@@ -17,7 +17,7 @@ const Home = () => {
         <div>
 
             <Header />
-            <Silder />
+            <Slider />
             <InfoBlock />
             <Specification />
             <PropertyInfo />
@@ -31,120 +31,139 @@ const Home = () => {
 
 
 
-const Silder = () => {
+const Slider = () => {
     return (
-        <>
-            <section className="w3l-main-slider" id="home">
-                <div className="companies20-content">
-                    <div className="companies-wrapper" />
-                    <div style={{ width: "100%", margin: "auto", padding: "", height: "" }}>
-                        <Swiper style={{
-                            height: "50%",
-                            '--swiper-navigation-color': '#fff',
-                            '--swiper-pagination-color': '#fff',
-                        }}
-                            modules={[Navigation, Pagination, Autoplay]}
-                            spaceBetween={20}
-                            slidesPerView={1}
-                            navigation
-                            pagination={{ clickable: true }}
-                            autoplay={{ delay: 2000, disableOnInteraction: false }}
-                            loop={true}
-                        >
-                            <SwiperSlide>
-                                <div className="item">
-                                    <li>
-                                        <div className="slider-info banner-view bg bg2" data-selector=".bg.bg2">
-                                            <div className="banner-info">
-                                                <div className="container">
-                                                    <div className="banner-info-bg">
-                                                        <h6><span className="fa fa-map-marker" /> Melbourne,Australia</h6>
-                                                        <h5>60 Thornley Street, Marrickville, NSW 2204</h5>
-                                                        <ul className="banner-ul">
-                                                            <li><span className="fa fa-bed" /> 3</li>
-                                                            <li><span className="fa fa-bath" /> 3</li>
-                                                            <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                                        </ul>
-                                                        <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
-                                                    </div>
+        <section className="w3l-main-slider" id="home">
+            <div className="companies20-content">
+                <div className="companies-wrapper" />
+                <div style={{ width: "100%", margin: "auto" }}>
+                    <Swiper style={{
+                        height: "50%",
+                        '--swiper-navigation-color': '#fff',
+                        '--swiper-pagination-color': '#fff',
+                    }}
+                        modules={[Navigation, Pagination, Autoplay]}
+                        spaceBetween={20}
+                        slidesPerView={1}
+                        navigation
+                        pagination={{ clickable: true }}
+                        autoplay={{ delay: 2000, disableOnInteraction: false }}
+                        loop={true}
+                    >
+                        <SwiperSlide>
+                            <div className="item">
+                                <li>
+                                    <div className="slider-info banner-view bg bg2">
+                                        <div className="banner-info">
+                                            <div className="container">
+                                                <div className="banner-info-bg">
+                                                    <h6><span className="fa fa-map-marker" /> Mumbai, India</h6>
+                                                    <h5>Luxury Apartments in Bandra</h5>
+                                                    <ul className="banner-ul">
+                                                        <li><span className="fa fa-bed" /> 3</li>
+                                                        <li><span className="fa fa-bath" /> 2</li>
+                                                        <li><span className="fa fa-share-square-o" /> 1500 sq ft</li>
+                                                    </ul>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="item">
-                                    <li>
-                                        <div className="slider-info  banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
-                                            <div className="banner-info">
-                                                <div className="container">
-                                                    <div className="banner-info-bg">
-                                                        <h6><span className="fa fa-map-marker" /> Sydney,Australia</h6>
-                                                        <h5>60 Thornley Street, Marrickville, NSW 2204</h5>
-                                                        <ul className="banner-ul">
-                                                            <li><span className="fa fa-bed" /> 3</li>
-                                                            <li><span className="fa fa-bath" /> 3</li>
-                                                            <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                                        </ul>
-                                                        <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
-                                                    </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="item">
+                                <li>
+                                    <div className="slider-info banner-view banner-top1 bg bg2">
+                                        <div className="banner-info">
+                                            <div className="container">
+                                                <div className="banner-info-bg">
+                                                    <h6><span className="fa fa-map-marker" /> Bangalore, India</h6>
+                                                    <h5>Spacious Villas in Whitefield</h5>
+                                                    <ul className="banner-ul">
+                                                        <li><span className="fa fa-bed" /> 4</li>
+                                                        <li><span className="fa fa-bath" /> 3</li>
+                                                        <li><span className="fa fa-share-square-o" /> 2000 sq ft</li>
+                                                    </ul>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="item">
-                                    <li>
-                                        <div className="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
-                                            <div className="banner-info">
-                                                <div className="container">
-                                                    <div className="banner-info-bg">
-                                                        <h6><span className="fa fa-map-marker" /> Perth,Australia</h6>
-                                                        <h5>60 Thornley Street, Marrickville, NSW 2204</h5>
-                                                        <ul className="banner-ul">
-                                                            <li><span className="fa fa-bed" /> 3</li>
-                                                            <li><span className="fa fa-bath" /> 3</li>
-                                                            <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                                        </ul>
-                                                        <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
-                                                    </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="item">
+                                <li>
+                                    <div className="slider-info banner-view banner-top2 bg bg2">
+                                        <div className="banner-info">
+                                            <div className="container">
+                                                <div className="banner-info-bg">
+                                                    <h6><span className="fa fa-map-marker" /> Delhi, India</h6>
+                                                    <h5>Modern Flats in Connaught Place</h5>
+                                                    <ul className="banner-ul">
+                                                        <li><span className="fa fa-bed" /> 2</li>
+                                                        <li><span className="fa fa-bath" /> 2</li>
+                                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
+                                                    </ul>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="item">
-                                    <li>
-                                        <div className="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
-                                            <div className="banner-info">
-                                                <div className="container">
-                                                    <div className="banner-info-bg">
-                                                        <h6><span className="fa fa-map-marker" /> Melbourne,Australia</h6>
-                                                        <h5>60 Thornley Street, Marrickville, NSW 2204</h5>
-                                                        <ul className="banner-ul">
-                                                            <li><span className="fa fa-bed" /> 3</li>
-                                                            <li><span className="fa fa-bath" /> 3</li>
-                                                            <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                                        </ul>
-                                                        <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> Check Property</Link>
-                                                    </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="item">
+                                <li>
+                                    <div className="slider-info banner-view banner-top3 bg bg2">
+                                        <div className="banner-info">
+                                            <div className="container">
+                                                <div className="banner-info-bg">
+                                                    <h6><span className="fa fa-map-marker" /> Chennai, India</h6>
+                                                    <h5>Beachside Villas in ECR</h5>
+                                                    <ul className="banner-ul">
+                                                        <li><span className="fa fa-bed" /> 5</li>
+                                                        <li><span className="fa fa-bath" /> 4</li>
+                                                        <li><span className="fa fa-share-square-o" /> 2500 sq ft</li>
+                                                    </ul>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
-                    </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="item">
+                                <li>
+                                    <div className="slider-info banner-view banner-top4 bg bg2">
+                                        <div className="banner-info">
+                                            <div className="container">
+                                                <div className="banner-info-bg">
+                                                    <h6><span className="fa fa-map-marker" /> Kolkata, India</h6>
+                                                    <h5>Heritage Homes in Salt Lake</h5>
+                                                    <ul className="banner-ul">
+                                                        <li><span className="fa fa-bed" /> 3</li>
+                                                        <li><span className="fa fa-bath" /> 2</li>
+                                                        <li><span className="fa fa-share-square-o" /> 1800 sq ft</li>
+                                                    </ul>
+                                                    <Link id="link" className="btn btn-secondary btn-theme1" to="/properties"> View Property</Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
-            </section>
-
-        </>
+            </div>
+        </section>
     )
 }
 
@@ -214,7 +233,6 @@ const InfoBlock = () => {
     );
 }
 
-
 const Specification = () => {
     return (
         <>
@@ -249,94 +267,90 @@ const Specification = () => {
 
 const PropertyInfo = () => {
     return (
-        <>
-            <section className="grids-4">
-                <div id="grids4-block" className="py-5">
-                    <div className="container py-md-3">
-                        <div className="heading text-center mx-auto">
-                            <h3 className="head">Recently Added Properties</h3>
-                            <p className="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                                Nulla mollis dapibus nunc, ut rhoncus
-                                turpis sodales quis. Integer sit amet mattis quam.</p>
+        <section className="grids-4">
+            <div id="grids4-block" className="py-5">
+                <div className="container py-md-3">
+                    <div className="heading text-center mx-auto">
+                        <h3 className="head">Recently Added Properties</h3>
+                        <p className="my-3 head"> Explore our latest listings of premium rental properties across India, offering comfort and convenience.</p>
+                    </div>
+                    <div className="row mt-5 pt-3">
+                        <div className="grids4-info col-lg-4 col-md-6">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g12.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Luxury Apartment in Bandra</Link></h5>
+                                <p>Mumbai, Maharashtra, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 4 Beds</li>
+                                    <li><span className="fa fa-bath" /> 3 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 1800 sq ft</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div className="row mt-5 pt-3">
-                            <div className="grids4-info  col-lg-4 col-md-6">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g12.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">84 Woodland St. Cocoa</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 4 Beds</li>
-                                        <li><span className="fa fa-bath" /> 3 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
+                        <div className="grids4-info col-lg-4 col-md-6 mt-md-0 mt-4">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g11.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Spacious Villa in Whitefield</Link></h5>
+                                <p>Bangalore, Karnataka, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 3 Beds</li>
+                                    <li><span className="fa fa-bath" /> 2 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 2200 sq ft</li>
+                                </ul>
                             </div>
-                            <div className="grids4-info col-lg-4 col-md-6 mt-md-0 mt-4">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g11.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">28 Westport Dr. Warminster</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 3 Beds</li>
-                                        <li><span className="fa fa-bath" /> 2 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-4">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g10.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Modern Flat in Connaught Place</Link></h5>
+                                <p>Delhi, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 2 Beds</li>
+                                    <li><span className="fa fa-bath" /> 2 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 1400 sq ft</li>
+                                </ul>
                             </div>
-                            <div className="grids4-info col-lg-4 col-md-6 mt-lg-0 mt-4">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g10.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">32 Pawnee Street Butte</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 4 Beds</li>
-                                        <li><span className="fa fa-bath" /> 3 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className="grids4-info col-lg-4 col-md-6 mt-4">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g9.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Beachside Villa in ECR</Link></h5>
+                                <p>Chennai, Tamil Nadu, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 5 Beds</li>
+                                    <li><span className="fa fa-bath" /> 4 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 2500 sq ft</li>
+                                </ul>
                             </div>
-                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g9.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">2 Glen Creek St. Alexandria</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 5 Beds</li>
-                                        <li><span className="fa fa-bath" /> 3 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className="grids4-info col-lg-4 col-md-6 mt-4">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g8.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Heritage Home in Salt Lake</Link></h5>
+                                <p>Kolkata, West Bengal, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 3 Beds</li>
+                                    <li><span className="fa fa-bath" /> 2 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 1900 sq ft</li>
+                                </ul>
                             </div>
-                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g8.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">798 Talbot St. Bridgewater</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 2 Beds</li>
-                                        <li><span className="fa fa-bath" /> 1 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="grids4-info  col-lg-4 col-md-6 mt-4">
-                                <Link id="link" to="/properties-single"><img src="assets/images/g7.jpg" className="img-fluid" alt="" /></Link>
-                                <div className="info-bg">
-                                    <h5><Link id="link" to="/properties-single">7240C Argyle St. Lawndale</Link></h5>
-                                    <p>661-699 N Mc Clurg Ct, Chicago, IL 60611, USA</p>
-                                    <ul>
-                                        <li><span className="fa fa-bed" /> 4 Beds</li>
-                                        <li><span className="fa fa-bath" /> 3 Baths</li>
-                                        <li><span className="fa fa-share-square-o" /> 1200 sq ft</li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div className="grids4-info col-lg-4 col-md-6 mt-4">
+                            <Link id="link" to="/properties-single"><img src="assets/images/g7.jpg" className="img-fluid" alt="" /></Link>
+                            <div className="info-bg">
+                                <h5><Link id="link" to="/properties-single">Premium Bungalow in Jubilee Hills</Link></h5>
+                                <p>Hyderabad, Telangana, India</p>
+                                <ul>
+                                    <li><span className="fa fa-bed" /> 6 Beds</li>
+                                    <li><span className="fa fa-bath" /> 5 Baths</li>
+                                    <li><span className="fa fa-share-square-o" /> 3000 sq ft</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 }
 
@@ -408,7 +422,7 @@ const Testimonials = () => {
                                             <img src="assets/images/te2.jpg" alt=" " className="img-responsive rounded-circle" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                                         </div>
                                         <div className="custo_grid col-9">
-                                            <h5>Shane Watson</h5>
+                                            <h5>Rajesh Sharma</h5>
                                             <span>Landlord</span>
                                         </div>
 
@@ -440,10 +454,9 @@ const Testimonials = () => {
                                             <img src="assets/images/te3.jpg" alt=" " className="img-responsive rounded-circle" style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                                         </div>
                                         <div className="custo_grid col-9">
-                                            <h5>Henry Nicholas</h5>
+                                            <h5>Priya Patel</h5>
                                             <span>Client</span>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

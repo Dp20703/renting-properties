@@ -8,7 +8,7 @@ const Ecommerce = () => {
     return (
         <div>
             <Header />
-            <Banner title={"Shop here"} pageName={'ecommerce'} />
+            <Banner title={"Properites"} pageName={'ecommerce'} />
             <Main />
             <Footer />
 

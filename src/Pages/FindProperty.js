@@ -1,19 +1,20 @@
-import React from 'react'
-import Header from '../Common/Header'
-import Banner from '../Common/Banner'
-import Footer from '../Common/Footer'
+import React from 'react';
+import Header from '../Common/Header';
+import Banner from '../Common/Banner';
+import Footer from '../Common/Footer';
 import { Link } from 'react-router-dom';
 
 const FindProperty = () => {
     return (
         <div>
             <Header />
-            <Banner title={"Find Property"} pageName={"find-property"} />
+            <Banner title={"Find Your Dream Property"} pageName={"find-property"} />
             <Main />
             <Footer />
         </div>
-    )
-}
+    );
+};
+
 function Main() {
     return (
         <>
@@ -23,57 +24,59 @@ function Main() {
                         <div className="forms-16-top">
                             <div className="form-right-inf">
                                 <div className="form-inner-cont">
-                                    <h3>Find your next perfect place</h3>
-                                    <form action="https://p.w3layouts.com/demosWTR/Freedom/12-02-2020/estate_property-freedom-demo_Free/200993729/web/search-results" method="post" className="signin-form">
+                                    <h3>Find Your Perfect Property</h3>
+                                    <p className='text-black fw-light mb-4'>Search from a wide range of properties to rent in top locations.</p>
+                                    <form action="" method="post" className="signin-form">
                                         <div className="row book-form">
                                             <div className="form-input col-lg-8 col-md-6">
-                                                <input type="text" name="" placeholder="Enter Your Keywords..." required />
+                                                <input
+                                                    type="text"
+                                                    name="keywords"
+                                                    placeholder="Enter property name, city, or keyword..."
+                                                    required
+                                                />
                                             </div>
                                             <div className="form-input col-lg-4 col-md-6 mt-md-0 mt-3">
-                                                <select className="selectpicker">
-                                                    <option>Select Location</option>
-                                                    <option>Sydney</option>
-                                                    <option>Melbourne</option>
+                                                <select className="selectpicker" name="location">
+                                                    <option value="">Select a City</option>
+                                                    <option value="Mumbai">Mumbai</option>
+                                                    <option value="Delhi">Delhi</option>
+                                                    <option value="Bangalore">Bangalore</option>
+                                                    <option value="Hyderabad">Hyderabad</option>
+                                                    <option value="Ahmedabad">Ahmedabad</option>
+                                                    <option value="Chennai">Chennai</option>
+                                                    <option value="Kolkata">Kolkata</option>
+                                                    <option value="Jaipur">Jaipur</option>
                                                 </select>
-
                                             </div>
                                             <div className="form-input col-md-4 mt-3">
-                                                <input type="text" name="" placeholder="Max Area (sqft)" required />
+                                                <input
+                                                    type="number"
+                                                    name="maxArea"
+                                                    placeholder="Maximum Area (sqft)"
+                                                    required
+                                                />
                                             </div>
                                             <div className="form-input col-md-4 mt-3">
-                                                <select className="selectpicker">
-                                                    <option>Property Status</option>
-                                                    <option>Lorem Ipsum</option>
-                                                    <option>Dolor Sit</option>
+                                                <select className="selectpicker" name="propertyType">
+                                                    <option value="">Select Property Type</option>
+                                                    <option value="Residential">Residential</option>
+                                                    <option value="Commercial">Commercial</option>
                                                 </select>
-
                                             </div>
-                                            <div className="form-input col-md-4  mt-3">
-                                                <select className="selectpicker">
-                                                    <option>Property type</option>
-                                                    <option>Doble Bedroom</option>
-                                                    <option>Single Bedroom</option>
-                                                </select>
 
-                                            </div>
                                             <div className="form-input col-md-4 mt-3">
-                                                <select className="selectpicker">
-                                                    <option>Select Categories</option>
-                                                    <option> Categories-1</option>
-                                                    <option> Categories-2</option>
-                                                </select>
-
+                                                <input
+                                                    type="number"
+                                                    name="maxPrice"
+                                                    placeholder="Maximum Budget (₹)"
+                                                    required
+                                                />
                                             </div>
-                                            <div className="form-input col-md-4  mt-3">
-                                                <input type="text" name="" placeholder="Max Price ($)" required />
-                                            </div>
-                                            <div className="bottom-btn col-md-4  mt-3">
-                                                <button className="btn">Search</button>
+                                            <div className="bottom-btn col-md-4 mt-3">
+                                                <button type="submit" className="btn">Search Properties</button>
                                             </div>
                                         </div>
-
-
-
                                     </form>
                                 </div>
                             </div>
@@ -84,4 +87,5 @@ function Main() {
         </>
     );
 }
-export default FindProperty
+
+export default FindProperty;

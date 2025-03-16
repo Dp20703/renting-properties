@@ -19,19 +19,19 @@ function Main() {
     const [isEditingProperty, setIsEditingProperty] = useState(null);
 
     const [user, setUser] = useState({
-        name: "John Doe",
-        email: "johndoe@example.com",
+        name: "Jay Patel",
+        email: "jaypatel@gmail.com",
         phone: "+1 234 567 890",
         bio: "Real Estate Investor & Property Owner | 5+ Years in Rental Business",
-        profilePic: "https://www.w3schools.com/howto/img_avatar.png",
+        profilePic: "/assets/images/te1.jpg",
     });
 
     const [properties, setProperties] = useState([
         {
             id: 1,
-            title: "Luxury Apartment in New York",
-            rent: "$2000/month",
-            location: "New York, NY",
+            title: "Luxury Apartment in Mumbai",
+            rent: "₹50,000/month",
+            location: "Mumbai, Maharashtra",
             bedrooms: 3,
             bathrooms: 2,
             description: "A spacious luxury apartment with modern amenities and city views.",
@@ -40,9 +40,9 @@ function Main() {
         },
         {
             id: 2,
-            title: "Cozy 2BHK in Los Angeles",
-            rent: "$1500/month",
-            location: "Los Angeles, CA",
+            title: "Cozy 2BHK in Bangalore",
+            rent: "₹35,000/month",
+            location: "Bangalore, Karnataka",
             bedrooms: 2,
             bathrooms: 1,
             description: "A comfortable 2BHK with easy access to public transport and shopping malls.",
@@ -51,9 +51,9 @@ function Main() {
         },
         {
             id: 3,
-            title: "Modern Studio in San Francisco",
-            rent: "$1800/month",
-            location: "San Francisco, CA",
+            title: "Modern Studio in Delhi",
+            rent: "₹40,000/month",
+            location: "Delhi",
             bedrooms: 1,
             bathrooms: 1,
             description: "A modern studio apartment in the heart of the city with excellent connectivity.",
