@@ -27,7 +27,7 @@ function ContactCompo() {
 function Map() {
     return (
         <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235026.89444410583!2d72.23154477939568!3d23.012930000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d575eef3dd%3A0xa40a9723abd1c46d!2sS.g.highway%20%7C%20Commercial%20Estate%20Agent%20In%20Ahmedabad%20by%20Monarch%20Associates!5e0!3m2!1sen!2sin!4v1742290217106!5m2!1sen!2sin" width="600" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235026.89444410583!2d72.23154477939568!3d23.012930000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d575eef3dd%3A0xa40a9723abd1c46d!2sS.g.highway%20%7C%20Commercial%20Estate%20Agent%20In%20Ahmedabad%20by%20Monarch%20Associates!5e0!3m2!1sen!2sin!4v1742290217106!5m2!1sen!2sin" width={100} height="300" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     );
 }
