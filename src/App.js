@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
@@ -13,7 +14,6 @@ import SignUP from "./Pages/SignUP";
 import Properties from "./Pages/Properties";
 import PropertiesSingle from "./Pages/PropertiesSingle";
 import SearchResults from "./Pages/SearchResults";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Profile from "./Pages/Profile";
 import OwnerProfile from "./Pages/OwnerProfile";
 import ManagePayments from "./Pages/ManagePayments";
@@ -21,6 +21,7 @@ import ManageBooking from "./Pages/ManageBooking";
 import ManageRequest from "./Pages/ManageRequest";
 import UploadProperty from "./Pages/UploadProperty";
 import MyBookings from "./Pages/MyBookings";
+import Booking from "./Pages/Booking";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/ecommerce" element={<Ecommerce />} />
           <Route path="/ecommerce-single" element={<EcommerceSingle />} />
+          <Route path="/booking" element={<Booking />} />
           <Route path="/properties" element={<Properties />} />
           <Route path="/properties-single" element={<PropertiesSingle />} />
           <Route path="/find-property" element={<FindProperty />} />

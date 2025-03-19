@@ -91,10 +91,9 @@ const Main = () => {
                         </div>
                     </div>
 
-                    {/* Rent This Property Form */}
                     <div className="row mt-5">
                         <div className="col-md-12 d-flex justify-content-center gap-3">
-                            <Link to={"/"}
+                            <Link to={"/booking"}
                                 className="btn btn-primary btn-lg"
                             >
                                 Book Now
