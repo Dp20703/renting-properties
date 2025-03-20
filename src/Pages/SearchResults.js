@@ -17,7 +17,7 @@ const SearchResults = () => {
     return (
         <div>
             <Header />
-            <Banner title={"Search Results"} pageName={"search-results"} />
+            <Banner title={"Search Results"} pageName={"search_results"} />
             <Main />
             <Footer />
         </div>
@@ -32,11 +32,11 @@ const Main = () => {
                     <div className="row mt-5 pt-3">
                         {properties.map((property, index) => (
                             <div className="grids4-info col-lg-4 col-md-6 mt-4" key={index}>
-                                <Link id="link" to="/properties-single">
+                                <Link id="link" to="/properties_single">
                                     <img src={property.image} className="img-fluid rounded shadow-sm" alt={property.title} />
                                 </Link>
                                 <div className="info-bg p-3">
-                                    <h5><Link id="link" to="/properties-single">{property.title}</Link></h5>
+                                    <h5><Link id="link" to="/properties_single">{property.title}</Link></h5>
                                     <p>{property.location}</p>
                                     <ul className="list-unstyled d-flex gap-2 flex-wrap">
                                         <li><span className="fa fa-bed" /> {property.beds} Beds</li>

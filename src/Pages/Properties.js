@@ -32,13 +32,13 @@ const Main = () => {
                     <div className="row">
                         {propertiesData.map((property, index) => (
                             <div className="grids3-info col-lg-4 col-md-6 mt-5" key={index}>
-                                <Link id="link" to="/properties-single">
+                                <Link id="link" to="/properties_single">
                                     <img src={property.image} className="img-fluid" alt={property.location} />
                                 </Link>
                                 <p>Rent</p>
                                 <div className="info-bg">
                                     <h5>
-                                        <Link id="link" to="/properties-single">{property.location}</Link>
+                                        <Link id="link" to="/properties_single">{property.location}</Link>
                                     </h5>
                                     <ul>
                                         <li><span className="fa fa-bed"></span> {property.beds} Beds</li>
