@@ -22,6 +22,7 @@ import ManageRequest from "./Pages/ManageRequest";
 import UploadProperty from "./Pages/UploadProperty";
 import MyBookings from "./Pages/MyBookings";
 import Booking from "./Pages/Booking";
+import ManageProperty from "./Pages/ManageProperty";
 
 const App = () => {
   return (
@@ -46,9 +47,10 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/owner_profile" element={<OwnerProfile />} />
           <Route path="/upload_property" element={<UploadProperty />} />
-          <Route path="/view_payments" element={<ManagePayments />} />
           <Route path="/manage_booking" element={<ManageBooking />} />
           <Route path="/manage_request" element={<ManageRequest />} />
+          <Route path="/view_payments" element={<ManagePayments />} />
+          <Route path="/view_property" element={<ManageProperty />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
