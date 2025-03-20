@@ -60,7 +60,7 @@ function Main() {
     // Handle Booking Submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate('/')
+        navigate('/my_bookings')
 
 
         // Validate input fields
@@ -83,7 +83,7 @@ function Main() {
     };
 
     return (
-        <div className="container mt-5">
+        <div className="container my-5">
             <div className="text-center">
                 <h1>Book a Property</h1>
                 <p>Find and book your ideal property today.</p>
