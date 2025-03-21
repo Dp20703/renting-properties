@@ -10232,8 +10232,8 @@ h4.sub-title {
   border: 1px solid #eee; }
 
 .w3l-index-block2 .s-block:hover {
-  box-shadow: -1px 2px 22px -9px rgba(0, 0, 0, 0.41);
-  transition: 0.3s ease-in; }
+  box-shadow: -1px 3px 22px -9px rgba(0, 0, 0, 0.41);
+  transition: 0.2s ease-in; }
 
 .w3l-index-block2 .s-block h3 {
   color: var(--title-color);
@@ -10382,6 +10382,11 @@ h4.sub-title {
 
 .grids-4 .grids4-info img {
   border-radius: 4px 4px 0 0; }
+.grids-4 .grids4-info img:hover{
+  /* border:2px solid #7A8DAE;  */
+  transform: scale(0.9);
+  transition: 0.27s ease-in;
+}
 
 .grids-4 .grids4-info p {
   font-weight: normal;
