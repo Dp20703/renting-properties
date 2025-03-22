@@ -213,7 +213,7 @@ const Specification = () => {
           </div>
         </div>
       </section>
-           <hr className='opacity-25' />
+           {/* <hr className='opacity-25' /> */}
         </>
     );
   };

@@ -14732,7 +14732,12 @@ small.text-3 {
     background: #55acee; }
   .w3l-forms-23 .linkedin {
     background: #005983; }
-  .w3l-forms-23 .form23 form input[type="text"], .w3l-forms-23 .form23 form input[type="email"], .w3l-forms-23 .form23 form input[type="password"] {
+
+  .w3l-forms-23 .form23 form input[type="text"], 
+  .w3l-forms-23 .form23 form input[type="email"], 
+  .w3l-forms-23 .form23 form input[type="password"] ,
+  .w3l-forms-23 .form23 form input[type="tel"]
+  {
     -webkit-appearance: none;
     font-style: normal;
     font-weight: normal;
@@ -14745,7 +14750,8 @@ small.text-3 {
     background: none;
     padding: 0 15px;
     margin-bottom: 16px;
-    border-radius: 0.25rem; }
+    border-radius: 0.25rem;
+   }
   .w3l-forms-23 .form23 form input[type="text"]:focus, .w3l-forms-23 .form23 form input[type="email"]:focus, .w3l-forms-23 .form23 form input[type="password"]:focus {
     outline: none; }
   .w3l-forms-23 .form23 form button {

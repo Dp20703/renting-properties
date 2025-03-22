@@ -27,8 +27,8 @@ function Main() {
                         <div className="d-grid forms23-grids">
                             <div className="form23">
                                 <h6>Login with your account</h6>
-                                <form action="#" method="GET">
-                                    <input type="email" name="username" placeholder="Email" required="required" />
+                                <form action={"http://localhost:8000/login"} method="post">
+                                    <input type="email" name="email" placeholder="Email" required="required" />
                                     <input type="password" name="password" placeholder="Password" required="required" />
                                     <Link id="link" to="/#URL">Forgot your password?</Link>
                                     <button type="submit" onClick={handleLogin}>Login</button>
