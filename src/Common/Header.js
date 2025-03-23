@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   const [login, setLogin] = useState(true);
-  const [userType, setUserType] = useState("owner"); // "owner" or "user" 
+  const [userType, setUserType] = useState("user"); // "owner" or "user" 
 
   // Handle Logout
   const handleLogout = () => {
